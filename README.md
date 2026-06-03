@@ -2,9 +2,28 @@
 
 > A hierarchical router that answers each prompt with the **cheapest, lowest-energy engine that can do the job** — sending trivial queries to deterministic/local handlers and reserving large LLMs only for prompts that genuinely need them. The result: lower latency, lower cost, and less compute/carbon per query.
 
+**🔗 [Live demo](https://frontend-two-indol-16.vercel.app/)** &nbsp;·&nbsp; Frontend on Vercel · Backend on Google Cloud Run
+
 Most apps send *every* prompt to a large model, even "what is the capital of France?" EcoPrompt asks a different question first: **what is the smallest engine that can answer this correctly?** — then routes accordingly, and measures the energy and cost it saved.
 
 ![EcoPrompt architecture](diagrams/ecoprompt_architecture.png)
+
+## Screenshots
+
+**Live metrics dashboard** — over a 25-prompt sample, **96% of traffic was answered without a paid cloud LLM**:
+
+![Dashboard stats](screenshots/03-dashboard-stats.png)
+![Dashboard charts](screenshots/04-dashboard-charts.png)
+
+The route-distribution and per-route latency/energy charts make the core idea visible: cheap local tiers handle the bulk of traffic, while the heavy `groq` route is rare but accounts for nearly all the latency and energy — exactly the cost EcoPrompt is built to avoid.
+
+**Routing in action** — each response is tagged with the route that answered it:
+
+| Local knowledge + code generation | Grounded web search for fresh facts |
+|---|---|
+| ![Chat routing](screenshots/01-chat-routing.png) | ![Web search](screenshots/06-web-search.png) |
+
+A simple definition is answered by the local **KB-reasoned** tier; a code request is served by the **local model**; and a real-time question ("who won the champions league?") escalates to the **web search** tier with cited sources.
 
 ## How it works
 
