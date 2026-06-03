@@ -7,9 +7,10 @@ from kb.programming_lookup import programming_lookup
 from kb.high_level_lookup import high_level_lookup
 from kb.rag_engine import retrieve_top_k
 from kb.kb_utils import tokenize
-from fastapi import FastAPI
+from fastapi import FastAPI, Request, HTTPException
 from pydantic import BaseModel
 from groq import Groq
+from usage_guard import guard, ENABLED as RATE_LIMIT_ENABLED
 import os
 import re
 import requests
@@ -20,6 +21,31 @@ from datetime import datetime
 from urllib.parse import urlparse
 load_dotenv()
 app = FastAPI()
+
+
+def _client_ip(http_request: Request) -> str:
+    """Real client IP, accounting for Cloud Run's proxy (X-Forwarded-For)."""
+    forwarded = http_request.headers.get("x-forwarded-for")
+    if forwarded:
+        return forwarded.split(",")[0].strip()
+    return http_request.client.host if http_request.client else "unknown"
+
+
+def _enforce_limit(http_request: Request) -> None:
+    """Raise HTTP 429 if the caller has exceeded the rate or daily limit."""
+    if not RATE_LIMIT_ENABLED:
+        return
+    allowed, reason = guard.check(_client_ip(http_request))
+    if not allowed:
+        if reason == "daily_cap":
+            raise HTTPException(
+                status_code=429,
+                detail="Daily demo limit reached. Please try again tomorrow.",
+            )
+        raise HTTPException(
+            status_code=429,
+            detail="Too many requests — please slow down and try again shortly.",
+        )
 from fastapi.middleware.cors import CORSMiddleware
 app.add_middleware(
     CORSMiddleware,
@@ -1082,7 +1108,8 @@ def stream_local_response(prompt: str, history: list, original_prompt: str, rout
         finalize_stream_metrics(route_used, start_time, 35)
 
 @app.post("/generate")
-def generate(request: PromptRequest):
+def generate(request: PromptRequest, http_request: Request):
+    _enforce_limit(http_request)
     start_time = time.time()
     prompt = request.prompt.strip()
     if len(prompt) < 2:
@@ -1313,7 +1340,8 @@ def get_metrics():
         return {"error": "Could not calculate full metrics"}
 from fastapi.responses import StreamingResponse
 @app.post("/generate-stream")
-def generate_stream(request: PromptRequest):
+def generate_stream(request: PromptRequest, http_request: Request):
+    _enforce_limit(http_request)
     start_time = time.time()
     prompt = request.prompt.strip()
     original_prompt = prompt

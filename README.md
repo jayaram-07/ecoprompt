@@ -96,6 +96,22 @@ See [`.env.example`](.env.example). You'll need:
 - `GROQ_API_KEY` — from [console.groq.com](https://console.groq.com) (powers the local/large LLM tiers)
 - `GEMINI_API_KEY` — from [Google AI Studio](https://aistudio.google.com) (powers the grounded web-search tier)
 
+## Usage limits (protecting the billed APIs)
+Because the demo is public and the Gemini/Groq routes are billed, the backend
+enforces two limits at the API entrance (`usage_guard.py`):
+
+- **Per-IP rate limit** — `RATE_LIMIT_PER_MINUTE` (default 20) stops a single
+  client from spamming requests.
+- **Global daily cap** — `MAX_REQUESTS_PER_DAY` (default 500) bounds total
+  requests/day, capping paid-API exposure. Over the limit, the API returns
+  HTTP 429 with a friendly message instead of calling a model.
+
+Set `RATE_LIMIT_ENABLED=0` to disable (local dev / load testing). State is
+in-memory, so on multi-instance deploys the effective ceiling scales with the
+instance count — run with `--max-instances=1` for a strict cap. This app-level
+guard complements (does not replace) provider-side quota/budget caps in Google
+Cloud and Groq.
+
 ## Tests
 Offline unit tests cover the routing-decision logic (complexity scoring, the
 simple-prompt fast path, token budgeting, source-host matching, energy estimate)

@@ -1,0 +1,16 @@
+# Never bake secrets or local cruft into the image
+.env
+.env.*
+venv/
+.venv/
+__pycache__/
+*.pyc
+.git/
+.github/
+tests/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.DS_Store
+scratch/
+diagrams/
