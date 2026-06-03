@@ -1,5 +1,8 @@
 # EcoPrompt — Energy-Efficient AI Prompt Routing
 
+![tests](https://github.com/jayaram-07/ecoprompt/actions/workflows/tests.yml/badge.svg)
+![license](https://img.shields.io/badge/license-MIT-green)
+
 > A hierarchical router that answers each prompt with the **cheapest, lowest-energy engine that can do the job** — sending trivial queries to deterministic/local handlers and reserving large LLMs only for prompts that genuinely need them. The result: lower latency, lower cost, and less compute/carbon per query.
 
 **🔗 [Live demo](https://frontend-two-indol-16.vercel.app/)** &nbsp;·&nbsp; Frontend on Vercel · Backend on Google Cloud Run
@@ -49,6 +52,14 @@ Every request records latency, estimated energy (kWh), and estimated cost per ro
 - Groq Llama 3 70B: ~$0.70 / 1M tokens
 - Electricity: ₹8.00 / kWh (India avg)
 
+> **A note on the numbers (honesty matters).** The energy and CO₂ figures are
+> **estimates, not hardware measurements.** Energy is modeled as
+> `latency × assumed power draw` and cost is derived from the published
+> per-token prices above. They're meant to illustrate the *relative* savings of
+> routing cheap-first — not to be billed against. The one thing measured
+> directly is **cloud-avoidance rate** (the share of prompts answered without a
+> paid LLM call), which is the metric that actually drives the savings.
+
 ## Tech stack
 
 **Backend** — Python, FastAPI, Uvicorn · [Groq](https://groq.com) (Llama 3.1 8B / Llama 3 70B) · Google Gemini (grounded search) · custom deterministic + RAG engines
@@ -85,13 +96,26 @@ See [`.env.example`](.env.example). You'll need:
 - `GROQ_API_KEY` — from [console.groq.com](https://console.groq.com) (powers the local/large LLM tiers)
 - `GEMINI_API_KEY` — from [Google AI Studio](https://aistudio.google.com) (powers the grounded web-search tier)
 
+## Tests
+Offline unit tests cover the routing-decision logic (complexity scoring, the
+simple-prompt fast path, token budgeting, source-host matching, energy estimate)
+and the KB tokenizer. They make no API calls.
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+CI runs them on every push via GitHub Actions (see the badge above).
+
 ## Project layout
 ```
 main.py              FastAPI app — routing cascade, metrics, streaming
 deterministic.py     Tier-1 rule/lookup engine
 kb/                  Knowledge-base lookups + RAG engine (geography, math, science, …)
+tests/               Offline unit tests for routing + tokenizer logic
 diagrams/            Architecture diagrams (.png/.svg/.mmd)
 frontend/            Vite + React + Tailwind UI and metrics dashboard
+.github/workflows/   CI (runs the test suite)
 ```
 
 ## Roadmap
