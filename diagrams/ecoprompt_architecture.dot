@@ -1,0 +1,151 @@
+digraph EcoPromptArchitecture {
+  graph [
+    rankdir=TB,
+    bgcolor="#f8fafc",
+    pad="0.35",
+    nodesep="0.55",
+    ranksep="0.75",
+    splines=ortho
+  ];
+
+  node [
+    shape=box,
+    style="rounded,filled",
+    color="#cbd5e1",
+    fillcolor="#ffffff",
+    fontname="Arial",
+    fontsize=12,
+    margin="0.14,0.10"
+  ];
+
+  edge [
+    color="#64748b",
+    fontname="Arial",
+    fontsize=10,
+    arrowsize=0.7
+  ];
+
+  User [label="User", fillcolor="#dcfce7", color="#86efac"];
+
+  subgraph cluster_frontend {
+    label="Frontend";
+    color="#bfdbfe";
+    style="rounded,filled";
+    fillcolor="#eff6ff";
+    UI [label="React Frontend\nVite App"];
+    ChatUI [label="Chat Console\nmessages, history, web toggle,\ncopy buttons"];
+    DashUI [label="Analytics Dashboard\nlatency, cost, energy,\nroute distribution"];
+    BrowserStorage [label="Browser localStorage\nchat history + titles", fillcolor="#fef9c3", color="#fde68a"];
+  }
+
+  subgraph cluster_backend {
+    label="Backend";
+    color="#bbf7d0";
+    style="rounded,filled";
+    fillcolor="#f0fdf4";
+    API [label="FastAPI Backend\nmain.py"];
+    Validate [label="Input Validation"];
+    Response [label="Response to Frontend", fillcolor="#dcfce7", color="#86efac"];
+  }
+
+  subgraph cluster_routes {
+    label="Routing Layers";
+    color="#ddd6fe";
+    style="rounded,filled";
+    fillcolor="#faf5ff";
+    Deterministic [label="Deterministic Engine\nmath, conversions, greetings,\nprime checks"];
+    WebRoute [label="Web Search Route"];
+    TemplateEngine [label="Code Template Engine\nkb/code_templates.json"];
+    LocalCode [label="Local Code Fallback\nnormalize into fenced code block"];
+    KBLookup [label="Domain KB Lookups"];
+    RAG [label="Local RAG Engine\nretrieve_top_k"];
+    LocalModel [label="Local Ollama Model\nllama3.2:1b"];
+    WeakCheck [label="Weak Response /\nComplexity Check"];
+    Groq [label="Groq Fallback\nllama-3.1-8b-instant", fillcolor="#fee2e2", color="#fca5a5"];
+  }
+
+  subgraph cluster_web {
+    label="Web Grounding";
+    color="#bae6fd";
+    style="rounded,filled";
+    fillcolor="#f0f9ff";
+    Gemini [label="Gemini API\nGoogle Search Grounding"];
+    SourceFilter [label="Source Extraction + Trust Filter\nblock weak domains,\nrank trusted sources"];
+    LocalFormatter [label="Optional Local Formatting\nOllama llama3.2:1b"];
+  }
+
+  subgraph cluster_kb {
+    label="Local Knowledge";
+    color="#fed7aa";
+    style="rounded,filled";
+    fillcolor="#fff7ed";
+    Geography [label="Geography KB"];
+    MathKB [label="Math KB"];
+    Science [label="Science KB"];
+    History [label="History KB"];
+    Programming [label="Programming KB"];
+    HighLevel [label="High-Level Concepts KB"];
+    KBContext [label="Build Context Prompt"];
+    LocalJSON [label="Local JSON Knowledge Files"];
+    RAGContext [label="Build RAG Context Prompt"];
+  }
+
+  subgraph cluster_metrics {
+    label="Monitoring";
+    color="#e2e8f0";
+    style="rounded,filled";
+    fillcolor="#f8fafc";
+    MetricsAPI [label="GET /metrics"];
+    MetricsUpdate [label="Update Metrics\nroute, latency, energy, cost"];
+    MetricsStore [label="In-Memory Metrics Store", fillcolor="#fef9c3", color="#fde68a"];
+  }
+
+  User -> UI;
+  UI -> ChatUI;
+  UI -> DashUI;
+  ChatUI -> API;
+  API -> Validate;
+
+  Validate -> Deterministic;
+  Deterministic -> Response [label="matched"];
+
+  Validate -> WebRoute [label="web_search = true"];
+  WebRoute -> Gemini;
+  Gemini -> SourceFilter;
+  SourceFilter -> LocalFormatter;
+  LocalFormatter -> Response;
+
+  Validate -> TemplateEngine [label="code request"];
+  TemplateEngine -> Response [label="template match"];
+  TemplateEngine -> LocalCode [label="no template"];
+  LocalCode -> Response;
+
+  Validate -> KBLookup;
+  KBLookup -> Geography;
+  KBLookup -> MathKB;
+  KBLookup -> Science;
+  KBLookup -> History;
+  KBLookup -> Programming;
+  KBLookup -> HighLevel;
+  KBLookup -> KBContext [label="relevant match"];
+  KBContext -> LocalModel;
+
+  Validate -> RAG;
+  RAG -> LocalJSON;
+  LocalJSON -> RAGContext;
+  RAGContext -> LocalModel;
+
+  Validate -> LocalModel [label="fallback"];
+  LocalModel -> WeakCheck;
+  WeakCheck -> Response [label="simple / good enough"];
+  WeakCheck -> Groq [label="complex or weak\nnon-web prompt"];
+  Groq -> Response;
+
+  Response -> UI;
+  Response -> MetricsUpdate;
+  MetricsUpdate -> MetricsStore;
+  DashUI -> MetricsAPI;
+  MetricsAPI -> MetricsStore;
+  ChatUI -> BrowserStorage;
+  BrowserStorage -> ChatUI;
+}

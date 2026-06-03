@@ -1,0 +1,365 @@
+[
+  {
+    "id": "limit",
+    "title": "Limit",
+    "keywords": ["limit", "limit of a function"],
+    "formula": "lim(x→a) f(x) = L",
+    "description": "A limit describes the value that a function approaches as the input approaches a specific value. It is the foundational concept of calculus and is used to define derivatives and integrals."
+  },
+  {
+    "id": "derivative",
+    "title": "Derivative",
+    "keywords": ["derivative", "differentiation"],
+    "formula": "d/dx (x^n) = n*x^(n-1)",
+    "description": "A derivative measures the rate of change of a function with respect to a variable. It represents the slope of the tangent line to the curve at a given point."
+  },
+  {
+    "id": "integral",
+    "title": "Integral",
+    "keywords": ["integral", "integration"],
+    "formula": "∫ x^n dx = x^(n+1)/(n+1) + C",
+    "description": "An integral represents accumulation of quantities and is used to compute areas under curves. It is the inverse operation of differentiation."
+  },
+  {
+    "id": "definite_integral",
+    "title": "Definite Integral",
+    "keywords": ["definite integral"],
+    "formula": "∫[a→b] f(x) dx = F(b) - F(a)",
+    "description": "A definite integral calculates the exact area under a curve between two limits using the Fundamental Theorem of Calculus."
+  },
+  {
+    "id": "matrix",
+    "title": "Matrix",
+    "keywords": ["matrix", "matrices"],
+    "formula": "A = [a_ij]",
+    "description": "A matrix is a rectangular array of numbers arranged in rows and columns. It is used in linear algebra to represent linear transformations and systems of equations."
+  },
+  {
+    "id": "determinant",
+    "title": "Determinant",
+    "keywords": ["determinant"],
+    "formula": "|A| = ad - bc (for 2x2 matrix)",
+    "description": "The determinant is a scalar value computed from a square matrix. It indicates whether a matrix is invertible and relates to area or volume scaling."
+  },
+  {
+    "id": "eigenvalue",
+    "title": "Eigenvalue",
+    "keywords": ["eigenvalue"],
+    "formula": "det(A - λI) = 0",
+    "description": "An eigenvalue is a scalar that indicates how a linear transformation scales a vector without changing its direction."
+  },
+  {
+    "id": "eigenvector",
+    "title": "Eigenvector",
+    "keywords": ["eigenvector"],
+    "formula": "A v = λ v",
+    "description": "An eigenvector is a non-zero vector that changes only by a scalar factor when a linear transformation is applied."
+  },
+  {
+    "id": "vector",
+    "title": "Vector",
+    "keywords": ["vector"],
+    "formula": "v = (v1, v2, ..., vn)",
+    "description": "A vector is a mathematical object with magnitude and direction, commonly represented as an ordered list of numbers."
+  },
+  {
+    "id": "dot_product",
+    "title": "Dot Product",
+    "keywords": ["dot product", "scalar product"],
+    "formula": "a · b = |a||b|cosθ",
+    "description": "The dot product is an operation that takes two vectors and returns a scalar. It measures the degree of alignment between vectors."
+  },
+  {
+    "id": "cross_product",
+    "title": "Cross Product",
+    "keywords": ["cross product"],
+    "formula": "a × b = |a||b|sinθ n̂",
+    "description": "The cross product produces a vector perpendicular to two given vectors in three-dimensional space."
+  },
+  {
+    "id": "probability",
+    "title": "Probability",
+    "keywords": ["probability"],
+    "formula": "P(A) = favorable outcomes / total outcomes",
+    "description": "Probability measures the likelihood of an event occurring. It ranges from 0 to 1."
+  },
+  {
+    "id": "conditional_probability",
+    "title": "Conditional Probability",
+    "keywords": ["conditional probability"],
+    "formula": "P(A|B) = P(A ∩ B) / P(B)",
+    "description": "Conditional probability measures the probability of event A occurring given that event B has already occurred."
+  },
+  {
+    "id": "bayes_theorem",
+    "title": "Bayes' Theorem",
+    "keywords": ["bayes theorem"],
+    "formula": "P(A|B) = [P(B|A) P(A)] / P(B)",
+    "description": "Bayes' Theorem relates conditional probabilities and allows updating probabilities based on new evidence."
+  },
+  {
+    "id": "mean",
+    "title": "Mean",
+    "keywords": ["mean", "arithmetic mean"],
+    "formula": "Mean = (Σx) / n",
+    "description": "The mean is the average of a set of numbers, calculated by dividing the sum of values by the count."
+  },
+  {
+    "id": "variance",
+    "title": "Variance",
+    "keywords": ["variance"],
+    "formula": "Var(X) = E[(X - μ)^2]",
+    "description": "Variance measures how far a set of numbers is spread out from its mean."
+  },
+  {
+    "id": "standard_deviation",
+    "title": "Standard Deviation",
+    "keywords": ["standard deviation"],
+    "formula": "σ = √Var(X)",
+    "description": "Standard deviation is the square root of variance and indicates the dispersion of data points."
+  },
+  {
+    "id": "logarithm",
+    "title": "Logarithm",
+    "keywords": ["logarithm", "log"],
+    "formula": "log_b(x) = y ⇔ b^y = x",
+    "description": "A logarithm is the inverse of exponentiation and represents the power to which a base must be raised to obtain a number."
+  },
+  {
+    "id": "exponential_function",
+    "title": "Exponential Function",
+    "keywords": ["exponential function"],
+    "formula": "f(x) = a^x",
+    "description": "An exponential function is a function where the variable appears in the exponent. It models growth and decay processes."
+  },
+  {
+    "id": "quadratic_formula",
+    "title": "Quadratic Formula",
+    "keywords": ["quadratic formula"],
+    "formula": "x = [-b ± √(b^2 - 4ac)] / (2a)",
+    "description": "The quadratic formula provides the solutions to a quadratic equation of the form ax^2 + bx + c = 0."
+  },
+{
+  "id": "chain_rule",
+  "title": "Chain Rule",
+  "keywords": ["chain rule"],
+  "formula": "d/dx f(g(x)) = f'(g(x)) * g'(x)",
+  "description": "The Chain Rule is used to differentiate composite functions. It states that the derivative of a function composed with another function is the product of their derivatives."
+},
+{
+  "id": "product_rule",
+  "title": "Product Rule",
+  "keywords": ["product rule"],
+  "formula": "d/dx (uv) = u'v + uv'",
+  "description": "The Product Rule is used to differentiate the product of two functions. It states that the derivative of a product is the first function times the derivative of the second plus the second function times the derivative of the first."
+},
+{
+  "id": "quotient_rule",
+  "title": "Quotient Rule",
+  "keywords": ["quotient rule"],
+  "formula": "d/dx (u/v) = (u'v - uv') / v^2",
+  "description": "The Quotient Rule is used to differentiate the quotient of two functions. It provides a formula for computing derivatives when one function is divided by another."
+},
+{
+  "id": "partial_derivative",
+  "title": "Partial Derivative",
+  "keywords": ["partial derivative"],
+  "formula": "∂f/∂x",
+  "description": "A partial derivative measures the rate of change of a multivariable function with respect to one variable while keeping others constant."
+},
+{
+  "id": "gradient",
+  "title": "Gradient",
+  "keywords": ["gradient"],
+  "formula": "∇f = (∂f/∂x, ∂f/∂y, ∂f/∂z)",
+  "description": "The gradient is a vector of partial derivatives that points in the direction of greatest increase of a function."
+},
+{
+  "id": "divergence",
+  "title": "Divergence",
+  "keywords": ["divergence"],
+  "formula": "∇ · F",
+  "description": "Divergence measures the magnitude of a vector field's source or sink at a given point."
+},
+{
+  "id": "curl",
+  "title": "Curl",
+  "keywords": ["curl"],
+  "formula": "∇ × F",
+  "description": "Curl measures the rotation of a vector field around a point in three-dimensional space."
+},
+{
+  "id": "differential_equation",
+  "title": "Differential Equation",
+  "keywords": ["differential equation"],
+  "formula": "dy/dx = f(x, y)",
+  "description": "A differential equation relates a function with its derivatives. It is used to model dynamic systems in physics, engineering, and economics."
+},
+{
+  "id": "second_order_ode",
+  "title": "Second Order Differential Equation",
+  "keywords": ["second order differential equation"],
+  "formula": "a d²y/dx² + b dy/dx + c y = 0",
+  "description": "A second-order differential equation involves the second derivative of a function and is commonly used in physics to model motion."
+},
+{
+  "id": "inverse_matrix",
+  "title": "Inverse Matrix",
+  "keywords": ["inverse matrix"],
+  "formula": "A⁻¹ = (1/|A|) adj(A)",
+  "description": "The inverse of a square matrix is another matrix that, when multiplied with the original, results in the identity matrix."
+},
+{
+  "id": "rank_of_matrix",
+  "title": "Rank of a Matrix",
+  "keywords": ["rank of matrix"],
+  "formula": "rank(A)",
+  "description": "The rank of a matrix is the maximum number of linearly independent rows or columns."
+},
+{
+  "id": "linear_transformation",
+  "title": "Linear Transformation",
+  "keywords": ["linear transformation"],
+  "formula": "T(v + w) = T(v) + T(w)",
+  "description": "A linear transformation is a mapping between vector spaces that preserves addition and scalar multiplication."
+},
+{
+  "id": "binomial_theorem",
+  "title": "Binomial Theorem",
+  "keywords": ["binomial theorem"],
+  "formula": "(a + b)^n = Σ [nCk a^(n-k) b^k]",
+  "description": "The Binomial Theorem describes the algebraic expansion of powers of a binomial."
+},
+{
+  "id": "permutation",
+  "title": "Permutation",
+  "keywords": ["permutation"],
+  "formula": "nPr = n! / (n-r)!",
+  "description": "Permutation counts the number of ways to arrange r objects from n distinct objects where order matters."
+},
+{
+  "id": "combination",
+  "title": "Combination",
+  "keywords": ["combination"],
+  "formula": "nCr = n! / [r!(n-r)!]",
+  "description": "Combination counts the number of ways to choose r objects from n distinct objects where order does not matter."
+},
+{
+  "id": "set",
+  "title": "Set",
+  "keywords": ["set theory", "set"],
+  "formula": "A = {x | condition}",
+  "description": "A set is a well-defined collection of distinct objects. Set theory forms the foundation of modern mathematics."
+},
+{
+  "id": "subset",
+  "title": "Subset",
+  "keywords": ["subset"],
+  "formula": "A ⊆ B",
+  "description": "A set A is a subset of B if every element of A is also an element of B."
+},
+{
+  "id": "union",
+  "title": "Union of Sets",
+  "keywords": ["union of sets"],
+  "formula": "A ∪ B",
+  "description": "The union of two sets contains all elements that are in A, in B, or in both."
+},
+{
+  "id": "intersection",
+  "title": "Intersection of Sets",
+  "keywords": ["intersection of sets"],
+  "formula": "A ∩ B",
+  "description": "The intersection of two sets contains only the elements common to both sets."
+},
+{
+  "id": "function",
+  "title": "Function",
+  "keywords": ["function in mathematics"],
+  "formula": "f: X → Y",
+  "description": "A function is a mapping from a set X to a set Y that assigns each element of X exactly one element in Y."
+},
+{
+  "id": "injective_function",
+  "title": "Injective Function",
+  "keywords": ["injective function", "one to one function"],
+  "formula": "f(x1) = f(x2) ⇒ x1 = x2",
+  "description": "An injective function maps distinct elements of the domain to distinct elements of the codomain."
+},
+{
+  "id": "surjective_function",
+  "title": "Surjective Function",
+  "keywords": ["surjective function", "onto function"],
+  "formula": "∀y ∈ Y, ∃x ∈ X such that f(x) = y",
+  "description": "A surjective function covers every element of the codomain."
+},
+{
+  "id": "bijection",
+  "title": "Bijection",
+  "keywords": ["bijection", "bijective function"],
+  "formula": "Injective + Surjective",
+  "description": "A bijection is a function that is both injective and surjective, meaning it forms a perfect pairing between two sets."
+},
+{
+  "id": "arithmetic_sequence",
+  "title": "Arithmetic Sequence",
+  "keywords": ["arithmetic sequence"],
+  "formula": "a_n = a + (n-1)d",
+  "description": "An arithmetic sequence is a sequence where the difference between consecutive terms is constant."
+},
+{
+  "id": "geometric_sequence",
+  "title": "Geometric Sequence",
+  "keywords": ["geometric sequence"],
+  "formula": "a_n = a r^(n-1)",
+  "description": "A geometric sequence is a sequence where each term is obtained by multiplying the previous term by a constant ratio."
+},
+{
+  "id": "infinite_series",
+  "title": "Infinite Series",
+  "keywords": ["infinite series"],
+  "formula": "Σ a_n",
+  "description": "An infinite series is the sum of infinitely many terms of a sequence."
+},
+{
+  "id": "taylor_series",
+  "title": "Taylor Series",
+  "keywords": ["taylor series"],
+  "formula": "f(x) = Σ [fⁿ(a)/n!] (x-a)^n",
+  "description": "The Taylor series represents a function as an infinite sum of terms calculated from its derivatives at a single point."
+},
+{
+  "id": "maclaurin_series",
+  "title": "Maclaurin Series",
+  "keywords": ["maclaurin series"],
+  "formula": "f(x) = Σ [fⁿ(0)/n!] x^n",
+  "description": "The Maclaurin series is a special case of the Taylor series expanded around zero."
+},
+{
+  "id": "boolean_algebra",
+  "title": "Boolean Algebra",
+  "keywords": ["boolean algebra"],
+  "formula": "A AND B, A OR B, NOT A",
+  "description": "Boolean algebra is a branch of algebra dealing with truth values and logical operations."
+},
+{
+  "id": "complex_number",
+  "title": "Complex Number",
+  "keywords": ["complex number"],
+  "formula": "z = a + bi",
+  "description": "A complex number consists of a real part and an imaginary part, where i is the square root of -1."
+},
+{
+  "id": "pythagorean_theorem",
+  "title": "Pythagorean Theorem",
+  "keywords": [
+    "pythagorean theorem",
+    "pythagorean",
+    "right triangle",
+    "hypotenuse",
+    "a squared plus b squared equals c squared"
+  ],
+  "formula": "a² + b² = c²",
+  "description": "In a right triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides."
+}
+]

@@ -1,0 +1,303 @@
+[
+  {
+    "id": "cell_theory",
+    "title": "Cell Theory",
+    "category": "Biology",
+    "content": "Cell Theory states that all living organisms are composed of cells, the cell is the basic unit of life, and all cells arise from pre-existing cells."
+  },
+  {
+    "id": "prokaryotic_cell",
+    "title": "Prokaryotic Cell",
+    "category": "Biology",
+    "content": "Prokaryotic cells are simple cells without a nucleus or membrane-bound organelles. Bacteria are examples of prokaryotes."
+  },
+  {
+    "id": "eukaryotic_cell",
+    "title": "Eukaryotic Cell",
+    "category": "Biology",
+    "content": "Eukaryotic cells contain a nucleus and membrane-bound organelles. Plants, animals, fungi, and protists are eukaryotic organisms."
+  },
+  {
+    "id": "mitosis",
+    "title": "Mitosis",
+    "category": "Biology",
+    "content": "Mitosis is cell division that produces two genetically identical daughter cells. It is responsible for growth and tissue repair."
+  },
+  {
+    "id": "meiosis",
+    "title": "Meiosis",
+    "category": "Biology",
+    "content": "Meiosis is a type of cell division that produces four genetically different haploid cells. It is essential for sexual reproduction."
+  },
+  {
+    "id": "dna_structure",
+    "title": "DNA Structure",
+    "category": "Biology",
+    "content": "DNA has a double helix structure composed of two strands held together by complementary base pairing between adenine-thymine and cytosine-guanine."
+  },
+  {
+    "id": "rna",
+    "title": "RNA",
+    "category": "Biology",
+    "content": "RNA is a nucleic acid involved in protein synthesis. It differs from DNA by containing ribose sugar and uracil instead of thymine."
+  },
+  {
+    "id": "protein_synthesis",
+    "title": "Protein Synthesis",
+    "category": "Biology",
+    "content": "Protein synthesis occurs in two stages: transcription, where DNA is converted to mRNA, and translation, where ribosomes use mRNA to assemble amino acids into proteins."
+  },
+  {
+    "id": "enzyme",
+    "title": "Enzyme",
+    "category": "Biology",
+    "content": "Enzymes are biological catalysts that speed up chemical reactions in cells by lowering activation energy."
+  },
+  {
+    "id": "photosynthesis",
+    "title": "Photosynthesis",
+    "category": "Biology",
+    "content": "Photosynthesis is the process by which plants convert light energy into chemical energy. The simplified equation is 6CO2 + 6H2O → C6H12O6 + 6O2."
+  },
+  {
+    "id": "cellular_respiration",
+    "title": "Cellular Respiration",
+    "category": "Biology",
+    "content": "Cellular respiration converts glucose into energy in the form of ATP. The overall equation is C6H12O6 + 6O2 → 6CO2 + 6H2O + ATP."
+  },
+  {
+    "id": "atp",
+    "title": "ATP",
+    "category": "Biology",
+    "content": "ATP (adenosine triphosphate) is the primary energy currency of cells. It stores and transfers energy within biological systems."
+  },
+  {
+    "id": "natural_selection",
+    "title": "Natural Selection",
+    "category": "Biology",
+    "content": "Natural selection is the process by which individuals with advantageous traits are more likely to survive and reproduce."
+  },
+  {
+    "id": "evolution",
+    "title": "Evolution",
+    "category": "Biology",
+    "content": "Evolution is the gradual change in the genetic composition of populations over generations through mechanisms such as mutation and natural selection."
+  },
+  {
+    "id": "ecosystem",
+    "title": "Ecosystem",
+    "category": "Biology",
+    "content": "An ecosystem consists of living organisms interacting with each other and their physical environment."
+  },
+  {
+    "id": "food_chain",
+    "title": "Food Chain",
+    "category": "Biology",
+    "content": "A food chain shows the flow of energy from producers to consumers to decomposers."
+  },
+  {
+    "id": "homeostasis",
+    "title": "Homeostasis",
+    "category": "Biology",
+    "content": "Homeostasis is the ability of an organism to maintain stable internal conditions despite external changes."
+  },
+  {
+    "id": "diffusion",
+    "title": "Diffusion",
+    "category": "Biology",
+    "content": "Diffusion is the passive movement of molecules from a region of higher concentration to lower concentration."
+  },
+  {
+    "id": "osmosis",
+    "title": "Osmosis",
+    "category": "Biology",
+    "content": "Osmosis is the diffusion of water across a semipermeable membrane from low solute concentration to high solute concentration."
+  },
+  {
+    "id": "active_transport",
+    "title": "Active Transport",
+    "category": "Biology",
+    "content": "Active transport moves substances against their concentration gradient using energy, typically ATP."
+  },
+  {
+    "id": "genetics",
+    "title": "Genetics",
+    "category": "Biology",
+    "content": "Genetics is the study of heredity and variation in organisms."
+  },
+  {
+    "id": "dominant_recessive",
+    "title": "Dominant and Recessive Traits",
+    "category": "Biology",
+    "content": "Dominant traits are expressed when at least one dominant allele is present, while recessive traits require two recessive alleles."
+  },
+  {
+    "id": "punnett_square",
+    "title": "Punnett Square",
+    "category": "Biology",
+    "content": "A Punnett square is a diagram used to predict genetic outcomes of crosses between individuals."
+  },
+  {
+    "id": "mutation",
+    "title": "Mutation",
+    "category": "Biology",
+    "content": "A mutation is a change in DNA sequence. Mutations can be beneficial, harmful, or neutral."
+  },
+  {
+    "id": "biodiversity",
+    "title": "Biodiversity",
+    "category": "Biology",
+    "content": "Biodiversity refers to the variety of life forms within an ecosystem or on Earth as a whole."
+  }
+,
+  {
+    "id": "taxonomy",
+    "title": "Taxonomy",
+    "category": "Biology",
+    "content": "Taxonomy is the science of classifying organisms into hierarchical groups such as domain, kingdom, phylum, class, order, family, genus, and species."
+  },
+  {
+    "id": "binomial_nomenclature",
+    "title": "Binomial Nomenclature",
+    "category": "Biology",
+    "content": "Binomial nomenclature is the two-part scientific naming system for organisms, consisting of genus and species names."
+  },
+  {
+    "id": "nervous_system",
+    "title": "Nervous System",
+    "category": "Biology",
+    "content": "The nervous system controls and coordinates body activities using electrical and chemical signals. It consists of the brain, spinal cord, and nerves."
+  },
+  {
+    "id": "endocrine_system",
+    "title": "Endocrine System",
+    "category": "Biology",
+    "content": "The endocrine system regulates body functions through hormones released into the bloodstream by glands."
+  },
+  {
+    "id": "immune_system",
+    "title": "Immune System",
+    "category": "Biology",
+    "content": "The immune system protects the body against pathogens such as bacteria and viruses using specialized cells and antibodies."
+  },
+  {
+    "id": "antibody",
+    "title": "Antibody",
+    "category": "Biology",
+    "content": "Antibodies are proteins produced by B cells that recognize and bind to specific antigens to neutralize pathogens."
+  },
+  {
+    "id": "antigen",
+    "title": "Antigen",
+    "category": "Biology",
+    "content": "An antigen is a substance that triggers an immune response, often found on the surface of pathogens."
+  },
+  {
+    "id": "circulatory_system",
+    "title": "Circulatory System",
+    "category": "Biology",
+    "content": "The circulatory system transports oxygen, nutrients, hormones, and waste products through blood pumped by the heart."
+  },
+  {
+    "id": "respiratory_system",
+    "title": "Respiratory System",
+    "category": "Biology",
+    "content": "The respiratory system enables gas exchange, supplying oxygen to the blood and removing carbon dioxide."
+  },
+  {
+    "id": "digestive_system",
+    "title": "Digestive System",
+    "category": "Biology",
+    "content": "The digestive system breaks down food into nutrients that can be absorbed and used by the body."
+  },
+  {
+    "id": "excretion",
+    "title": "Excretion",
+    "category": "Biology",
+    "content": "Excretion is the removal of metabolic waste products from the body to maintain homeostasis."
+  },
+  {
+    "id": "hormone",
+    "title": "Hormone",
+    "category": "Biology",
+    "content": "Hormones are chemical messengers released by endocrine glands that regulate physiological processes."
+  },
+  {
+    "id": "reproduction",
+    "title": "Reproduction",
+    "category": "Biology",
+    "content": "Reproduction is the biological process by which organisms produce offspring, either sexually or asexually."
+  },
+  {
+    "id": "asexual_reproduction",
+    "title": "Asexual Reproduction",
+    "category": "Biology",
+    "content": "Asexual reproduction produces offspring genetically identical to the parent without gamete fusion."
+  },
+  {
+    "id": "sexual_reproduction",
+    "title": "Sexual Reproduction",
+    "category": "Biology",
+    "content": "Sexual reproduction involves the fusion of gametes from two parents, producing genetically diverse offspring."
+  },
+  {
+    "id": "chromosome",
+    "title": "Chromosome",
+    "category": "Biology",
+    "content": "Chromosomes are structures composed of DNA and proteins that carry genetic information."
+  },
+  {
+    "id": "gene",
+    "title": "Gene",
+    "category": "Biology",
+    "content": "A gene is a segment of DNA that codes for a specific protein or functional RNA molecule."
+  },
+  {
+    "id": "allele",
+    "title": "Allele",
+    "category": "Biology",
+    "content": "An allele is a variant form of a gene found at a specific locus on a chromosome."
+  },
+  {
+    "id": "transcription",
+    "title": "Transcription",
+    "category": "Biology",
+    "content": "Transcription is the process by which DNA is copied into messenger RNA (mRNA)."
+  },
+  {
+    "id": "translation",
+    "title": "Translation",
+    "category": "Biology",
+    "content": "Translation is the process by which ribosomes read mRNA to synthesize proteins."
+  },
+  {
+    "id": "climate_change",
+    "title": "Climate Change (Biological Impact)",
+    "category": "Biology",
+    "content": "Climate change affects biodiversity, ecosystems, and species distribution due to shifts in temperature and weather patterns."
+  },
+  {
+    "id": "population_growth",
+    "title": "Population Growth",
+    "category": "Biology",
+    "content": "Population growth describes changes in population size over time, influenced by birth rates, death rates, and migration."
+  },
+  {
+    "id": "carrying_capacity",
+    "title": "Carrying Capacity",
+    "category": "Biology",
+    "content": "Carrying capacity is the maximum population size an environment can sustainably support."
+  },
+  {
+    "id": "symbiosis",
+    "title": "Symbiosis",
+    "category": "Biology",
+    "content": "Symbiosis is a close relationship between two species. Types include mutualism, commensalism, and parasitism."
+  },
+  {
+    "id": "adaptation",
+    "title": "Adaptation",
+    "category": "Biology",
+    "content": "An adaptation is a heritable trait that increases an organism’s chances of survival and reproduction in a specific environment."
+  }
+]

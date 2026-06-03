@@ -1,0 +1,303 @@
+[
+  {
+    "id": "atomic_structure",
+    "title": "Atomic Structure",
+    "category": "Chemistry",
+    "content": "Atomic structure describes the arrangement of protons, neutrons, and electrons within an atom. Protons and neutrons form the nucleus, while electrons occupy orbitals around it. The atomic number equals the number of protons and defines the element."
+  },
+  {
+    "id": "periodic_table",
+    "title": "Periodic Table",
+    "category": "Chemistry",
+    "content": "The periodic table organizes elements based on increasing atomic number. Elements in the same group share similar chemical properties due to similar valence electron configurations."
+  },
+  {
+    "id": "ionic_bond",
+    "title": "Ionic Bond",
+    "category": "Chemistry",
+    "content": "An ionic bond forms when electrons are transferred from one atom to another, creating oppositely charged ions. The electrostatic attraction between ions holds them together."
+  },
+  {
+    "id": "covalent_bond",
+    "title": "Covalent Bond",
+    "category": "Chemistry",
+    "content": "A covalent bond forms when two atoms share electrons. Covalent bonds can be single, double, or triple depending on the number of shared electron pairs."
+  },
+  {
+    "id": "mole_concept",
+    "title": "Mole Concept",
+    "category": "Chemistry",
+    "content": "A mole represents 6.022 × 10^23 particles, known as Avogadro’s number. It connects microscopic atomic scale to measurable laboratory quantities."
+  },
+  {
+    "id": "avogadros_number",
+    "title": "Avogadro's Number",
+    "category": "Chemistry",
+    "content": "Avogadro’s number is 6.022 × 10^23 particles per mole. It allows chemists to convert between moles and number of atoms or molecules."
+  },
+  {
+    "id": "stoichiometry",
+    "title": "Stoichiometry",
+    "category": "Chemistry",
+    "content": "Stoichiometry calculates quantities of reactants and products using balanced chemical equations. Mole ratios from the equation determine proportional relationships."
+  },
+  {
+    "id": "ideal_gas_law",
+    "title": "Ideal Gas Law",
+    "category": "Chemistry",
+    "content": "The Ideal Gas Law relates pressure, volume, temperature, and moles. The formula is PV = nRT, where R is the gas constant."
+  },
+  {
+    "id": "boyles_law",
+    "title": "Boyle's Law",
+    "category": "Chemistry",
+    "content": "Boyle’s Law states that pressure and volume of a gas are inversely proportional at constant temperature. The formula is P1V1 = P2V2."
+  },
+  {
+    "id": "charles_law",
+    "title": "Charles's Law",
+    "category": "Chemistry",
+    "content": "Charles’s Law states that volume is directly proportional to temperature at constant pressure. The formula is V1/T1 = V2/T2."
+  },
+  {
+    "id": "enthalpy",
+    "title": "Enthalpy",
+    "category": "Chemistry",
+    "content": "Enthalpy represents heat content at constant pressure. The enthalpy change of a reaction is written as ΔH. Negative ΔH indicates exothermic reaction."
+  },
+  {
+    "id": "endothermic_reaction",
+    "title": "Endothermic Reaction",
+    "category": "Chemistry",
+    "content": "An endothermic reaction absorbs heat from surroundings. It has a positive enthalpy change (ΔH > 0)."
+  },
+  {
+    "id": "exothermic_reaction",
+    "title": "Exothermic Reaction",
+    "category": "Chemistry",
+    "content": "An exothermic reaction releases heat to surroundings. It has a negative enthalpy change (ΔH < 0)."
+  },
+  {
+    "id": "reaction_rate",
+    "title": "Reaction Rate",
+    "category": "Chemistry",
+    "content": "Reaction rate measures how quickly reactants turn into products. It depends on temperature, concentration, surface area, and catalysts."
+  },
+  {
+    "id": "activation_energy",
+    "title": "Activation Energy",
+    "category": "Chemistry",
+    "content": "Activation energy is the minimum energy required for a reaction to occur. Catalysts lower activation energy."
+  },
+  {
+    "id": "le_chateliers_principle",
+    "title": "Le Chatelier's Principle",
+    "category": "Chemistry",
+    "content": "Le Chatelier’s Principle states that if a system at equilibrium is disturbed, it shifts to counteract the disturbance."
+  },
+  {
+    "id": "electronegativity",
+    "title": "Electronegativity",
+    "category": "Chemistry",
+    "content": "Electronegativity measures an atom’s ability to attract electrons in a bond. It increases across a period and decreases down a group."
+  },
+  {
+    "id": "ionization_energy",
+    "title": "Ionization Energy",
+    "category": "Chemistry",
+    "content": "Ionization energy is the energy required to remove an electron from a gaseous atom."
+  },
+  {
+    "id": "atomic_radius",
+    "title": "Atomic Radius",
+    "category": "Chemistry",
+    "content": "Atomic radius measures the size of an atom. It decreases across a period and increases down a group."
+  },
+  {
+    "id": "molarity",
+    "title": "Molarity",
+    "category": "Chemistry",
+    "content": "Molarity measures concentration and is defined as M = moles of solute / liters of solution."
+  },
+  {
+    "id": "ph_scale",
+    "title": "pH Scale",
+    "category": "Chemistry",
+    "content": "The pH scale measures acidity. The formula is pH = -log[H+]. Lower pH means higher acidity."
+  },
+  {
+    "id": "buffer_solution",
+    "title": "Buffer Solution",
+    "category": "Chemistry",
+    "content": "A buffer solution resists pH changes when small amounts of acid or base are added."
+  },
+  {
+    "id": "oxidation",
+    "title": "Oxidation",
+    "category": "Chemistry",
+    "content": "Oxidation is the loss of electrons during a chemical reaction."
+  },
+  {
+    "id": "reduction",
+    "title": "Reduction",
+    "category": "Chemistry",
+    "content": "Reduction is the gain of electrons during a chemical reaction."
+  },
+  {
+    "id": "redox_reaction",
+    "title": "Redox Reaction",
+    "category": "Chemistry",
+    "content": "A redox reaction involves simultaneous oxidation and reduction. Electrons transfer between substances."
+  }
+,
+  {
+    "id": "hydrogen_bonding",
+    "title": "Hydrogen Bonding",
+    "category": "Chemistry",
+    "content": "Hydrogen bonding is a strong intermolecular force that occurs when hydrogen is bonded to highly electronegative atoms such as oxygen, nitrogen, or fluorine. It significantly affects boiling points and biological molecule structure."
+  },
+  {
+    "id": "intermolecular_forces",
+    "title": "Intermolecular Forces",
+    "category": "Chemistry",
+    "content": "Intermolecular forces are attractive forces between molecules. They include London dispersion forces, dipole-dipole interactions, and hydrogen bonding."
+  },
+  {
+    "id": "london_dispersion_forces",
+    "title": "London Dispersion Forces",
+    "category": "Chemistry",
+    "content": "London dispersion forces are weak intermolecular forces caused by temporary fluctuations in electron distribution within molecules."
+  },
+  {
+    "id": "dipole_dipole_interaction",
+    "title": "Dipole-Dipole Interaction",
+    "category": "Chemistry",
+    "content": "Dipole-dipole interactions occur between polar molecules where partial positive and negative charges attract."
+  },
+  {
+    "id": "solution",
+    "title": "Solution",
+    "category": "Chemistry",
+    "content": "A solution is a homogeneous mixture consisting of a solute dissolved in a solvent. The concentration of a solution can be expressed in molarity."
+  },
+  {
+    "id": "solubility",
+    "title": "Solubility",
+    "category": "Chemistry",
+    "content": "Solubility is the maximum amount of solute that can dissolve in a solvent at a given temperature."
+  },
+  {
+    "id": "colloid",
+    "title": "Colloid",
+    "category": "Chemistry",
+    "content": "A colloid is a mixture where small particles are dispersed but do not settle out, such as milk or fog."
+  },
+  {
+    "id": "suspension",
+    "title": "Suspension",
+    "category": "Chemistry",
+    "content": "A suspension is a heterogeneous mixture in which particles are large enough to settle over time."
+  },
+  {
+    "id": "organic_chemistry",
+    "title": "Organic Chemistry",
+    "category": "Chemistry",
+    "content": "Organic chemistry studies carbon-containing compounds. Carbon forms stable covalent bonds and can create chains and rings."
+  },
+  {
+    "id": "hydrocarbons",
+    "title": "Hydrocarbons",
+    "category": "Chemistry",
+    "content": "Hydrocarbons are organic compounds made only of carbon and hydrogen. They include alkanes, alkenes, and alkynes."
+  },
+  {
+    "id": "functional_group",
+    "title": "Functional Group",
+    "category": "Chemistry",
+    "content": "A functional group is a specific group of atoms within a molecule responsible for its chemical behavior."
+  },
+  {
+    "id": "polymer",
+    "title": "Polymer",
+    "category": "Chemistry",
+    "content": "A polymer is a large molecule composed of repeating monomer units. Polymers may be natural or synthetic."
+  },
+  {
+    "id": "catalyst",
+    "title": "Catalyst",
+    "category": "Chemistry",
+    "content": "A catalyst increases reaction rate without being consumed by lowering activation energy."
+  },
+  {
+    "id": "equilibrium_constant",
+    "title": "Equilibrium Constant",
+    "category": "Chemistry",
+    "content": "The equilibrium constant (K) represents the ratio of product concentrations to reactant concentrations at equilibrium."
+  },
+  {
+    "id": "acid",
+    "title": "Acid",
+    "category": "Chemistry",
+    "content": "An acid is a substance that donates protons (H+ ions) in solution."
+  },
+  {
+    "id": "base",
+    "title": "Base",
+    "category": "Chemistry",
+    "content": "A base is a substance that accepts protons or produces hydroxide ions (OH-) in solution."
+  },
+  {
+    "id": "bronsted_lowry_theory",
+    "title": "Bronsted-Lowry Theory",
+    "category": "Chemistry",
+    "content": "The Bronsted-Lowry theory defines acids as proton donors and bases as proton acceptors."
+  },
+  {
+    "id": "arrhenius_theory",
+    "title": "Arrhenius Theory",
+    "category": "Chemistry",
+    "content": "The Arrhenius theory defines acids as substances that produce H+ ions and bases as substances that produce OH- ions in water."
+  },
+  {
+    "id": "gibbs_free_energy",
+    "title": "Gibbs Free Energy",
+    "category": "Chemistry",
+    "content": "Gibbs free energy determines spontaneity of reactions. The formula is ΔG = ΔH - TΔS."
+  },
+  {
+    "id": "entropy_chemistry",
+    "title": "Entropy (Chemistry)",
+    "category": "Chemistry",
+    "content": "Entropy measures disorder in a chemical system. Greater disorder corresponds to higher entropy."
+  },
+  {
+    "id": "crystal_lattice",
+    "title": "Crystal Lattice",
+    "category": "Chemistry",
+    "content": "A crystal lattice is the ordered three-dimensional arrangement of atoms or ions in a solid."
+  },
+  {
+    "id": "bond_energy",
+    "title": "Bond Energy",
+    "category": "Chemistry",
+    "content": "Bond energy is the energy required to break a chemical bond in a molecule."
+  },
+  {
+    "id": "percent_yield",
+    "title": "Percent Yield",
+    "category": "Chemistry",
+    "content": "Percent yield measures reaction efficiency. The formula is Percent Yield = (actual yield / theoretical yield) × 100%."
+  },
+  {
+    "id": "limiting_reagent",
+    "title": "Limiting Reagent",
+    "category": "Chemistry",
+    "content": "The limiting reagent is the reactant that is completely consumed first, limiting the amount of product formed."
+  },
+  {
+    "id": "corrosion",
+    "title": "Corrosion",
+    "category": "Chemistry",
+    "content": "Corrosion is the gradual degradation of metals through chemical reactions with their environment, such as rusting of iron."
+  }
+]

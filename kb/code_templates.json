@@ -1,0 +1,238 @@
+[
+  {
+    "id": "factorial",
+    "keywords": ["factorial"],
+    "content": "def factorial(n):\n    if n < 0:\n        raise ValueError('Negative numbers not allowed')\n    if n in (0, 1):\n        return 1\n    return n * factorial(n - 1)"
+  },
+  {
+    "id": "fibonacci",
+    "keywords": ["fibonacci"],
+    "content": "def fibonacci(n):\n    if n < 0:\n        raise ValueError('Negative numbers not allowed')\n    if n <= 1:\n        return n\n    return fibonacci(n - 1) + fibonacci(n - 2)"
+  },
+  {
+    "id": "recursion",
+    "keywords": ["recursion", "recursive function"],
+    "content": "def countdown(n):\n    if n < 0:\n        raise ValueError('n must be non-negative')\n    if n == 0:\n        print('Done')\n        return\n    print(n)\n    countdown(n - 1)\n\ncountdown(5)"
+  },
+  {
+    "id": "binary_search",
+    "keywords": ["binary search"],
+    "content": "def binary_search(arr, target):\n    left, right = 0, len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1"
+  },
+  {
+    "id": "linear_search",
+    "keywords": ["linear search"],
+    "content": "def linear_search(arr, target):\n    for index, value in enumerate(arr):\n        if value == target:\n            return index\n    return -1"
+  },
+  {
+    "id": "bubble_sort",
+    "keywords": ["bubble sort"],
+    "content": "def bubble_sort(arr):\n    arr = arr.copy()\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n - i - 1):\n            if arr[j] > arr[j + 1]:\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n    return arr"
+  },
+  {
+    "id": "merge_sort",
+    "keywords": ["merge sort"],
+    "content": "def merge_sort(arr):\n    if len(arr) <= 1:\n        return arr\n    mid = len(arr) // 2\n    left = merge_sort(arr[:mid])\n    right = merge_sort(arr[mid:])\n    return merge(left, right)\n\ndef merge(left, right):\n    result = []\n    i = j = 0\n    while i < len(left) and j < len(right):\n        if left[i] < right[j]:\n            result.append(left[i])\n            i += 1\n        else:\n            result.append(right[j])\n            j += 1\n    result.extend(left[i:])\n    result.extend(right[j:])\n    return result"
+  },
+  {
+    "id": "quick_sort",
+    "keywords": ["quick sort"],
+    "content": "def quick_sort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[len(arr)//2]\n    left = [x for x in arr if x < pivot]\n    middle = [x for x in arr if x == pivot]\n    right = [x for x in arr if x > pivot]\n    return quick_sort(left) + middle + quick_sort(right)"
+  },
+  {
+    "id": "reverse_string",
+    "keywords": ["reverse string"],
+    "content": "def reverse_string(s):\n    return s[::-1]"
+  },
+  {
+    "id": "palindrome",
+    "keywords": ["palindrome"],
+    "content": "def is_palindrome(s):\n    cleaned = ''.join(c.lower() for c in s if c.isalnum())\n    return cleaned == cleaned[::-1]"
+  },
+  {
+    "id": "prime_check",
+    "keywords": ["prime"],
+    "content": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True"
+  },
+  {
+    "id": "gcd_lcm",
+    "keywords": ["gcd", "lcm"],
+    "content": "def gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return abs(a)\n\ndef lcm(a, b):\n    return abs(a * b) // gcd(a, b)"
+  },
+  {
+    "id": "power",
+    "keywords": ["power"],
+    "content": "def power(base, exponent):\n    result = 1\n    for _ in range(abs(exponent)):\n        result *= base\n    return result if exponent >= 0 else 1 / result"
+  },
+  {
+    "id": "stack",
+    "keywords": ["stack implementation"],
+    "content": "class Stack:\n    def __init__(self):\n        self._items = []\n\n    def push(self, item):\n        self._items.append(item)\n\n    def pop(self):\n        if not self._items:\n            raise IndexError('Pop from empty stack')\n        return self._items.pop()\n\n    def peek(self):\n        return self._items[-1] if self._items else None\n\n    def is_empty(self):\n        return len(self._items) == 0"
+  },
+  {
+    "id": "queue",
+    "keywords": ["queue implementation"],
+    "content": "from collections import deque\n\nclass Queue:\n    def __init__(self):\n        self._items = deque()\n\n    def enqueue(self, item):\n        self._items.append(item)\n\n    def dequeue(self):\n        if not self._items:\n            raise IndexError('Dequeue from empty queue')\n        return self._items.popleft()\n\n    def is_empty(self):\n        return len(self._items) == 0"
+  },
+  {
+    "id": "linked_list",
+    "keywords": ["linked list"],
+    "content": "class Node:\n    def __init__(self, data):\n        self.data = data\n        self.next = None\n\nclass LinkedList:\n    def __init__(self):\n        self.head = None\n\n    def append(self, data):\n        new_node = Node(data)\n        if not self.head:\n            self.head = new_node\n            return\n        current = self.head\n        while current.next:\n            current = current.next\n        current.next = new_node"
+  },
+  {
+    "id": "dfs",
+    "keywords": ["dfs"],
+    "content": "def dfs(graph, start, visited=None):\n    if visited is None:\n        visited = set()\n    visited.add(start)\n    for neighbor in graph.get(start, []):\n        if neighbor not in visited:\n            dfs(graph, neighbor, visited)\n    return visited"
+  },
+  {
+    "id": "bfs",
+    "keywords": ["bfs"],
+    "content": "from collections import deque\n\ndef bfs(graph, start):\n    visited = set()\n    queue = deque([start])\n    while queue:\n        node = queue.popleft()\n        if node not in visited:\n            visited.add(node)\n            queue.extend(graph.get(node, []))\n    return visited"
+  },
+  {
+    "id": "file_read",
+    "keywords": ["read file"],
+    "content": "def read_file(path):\n    with open(path, 'r') as f:\n        return f.read()"
+  },
+  {
+    "id": "file_write",
+    "keywords": ["write file"],
+    "content": "def write_file(path, content):\n    with open(path, 'w') as f:\n        f.write(content)"
+  },
+  {
+    "id": "json_parse",
+    "keywords": ["parse json"],
+    "content": "import json\n\ndef parse_json(json_string):\n    return json.loads(json_string)"
+  },
+  {
+    "id": "basic_class",
+    "keywords": ["class example"],
+    "content": "class Person:\n    def __init__(self, name):\n        self.name = name\n\n    def greet(self):\n        return f'Hello, {self.name}'"
+  },
+  {
+    "id": "try_except",
+    "keywords": ["try except"],
+    "content": "def safe_divide(a, b):\n    try:\n        return a / b\n    except ZeroDivisionError:\n        return 'Cannot divide by zero'"
+  }
+,
+  {
+    "id": "selection_sort",
+    "keywords": ["selection sort"],
+    "content": "def selection_sort(arr):\n    arr = arr.copy()\n    n = len(arr)\n    for i in range(n):\n        min_idx = i\n        for j in range(i+1, n):\n            if arr[j] < arr[min_idx]:\n                min_idx = j\n        arr[i], arr[min_idx] = arr[min_idx], arr[i]\n    return arr"
+  },
+  {
+    "id": "insertion_sort",
+    "keywords": ["insertion sort"],
+    "content": "def insertion_sort(arr):\n    arr = arr.copy()\n    for i in range(1, len(arr)):\n        key = arr[i]\n        j = i - 1\n        while j >= 0 and arr[j] > key:\n            arr[j+1] = arr[j]\n            j -= 1\n        arr[j+1] = key\n    return arr"
+  },
+  {
+    "id": "count_vowels",
+    "keywords": ["count vowels"],
+    "content": "def count_vowels(s):\n    vowels = 'aeiouAEIOU'\n    return sum(1 for char in s if char in vowels)"
+  },
+  {
+    "id": "count_words",
+    "keywords": ["count words"],
+    "content": "def count_words(s):\n    return len(s.split())"
+  },
+  {
+    "id": "anagram_check",
+    "keywords": ["anagram"],
+    "content": "def is_anagram(s1, s2):\n    return sorted(s1.replace(' ', '').lower()) == sorted(s2.replace(' ', '').lower())"
+  },
+  {
+    "id": "remove_duplicates_list",
+    "keywords": ["remove duplicates"],
+    "content": "def remove_duplicates(lst):\n    return list(dict.fromkeys(lst))"
+  },
+  {
+    "id": "find_max",
+    "keywords": ["find max"],
+    "content": "def find_max(lst):\n    if not lst:\n        return None\n    maximum = lst[0]\n    for num in lst:\n        if num > maximum:\n            maximum = num\n    return maximum"
+  },
+  {
+    "id": "find_min",
+    "keywords": ["find min"],
+    "content": "def find_min(lst):\n    if not lst:\n        return None\n    minimum = lst[0]\n    for num in lst:\n        if num < minimum:\n            minimum = num\n    return minimum"
+  },
+  {
+    "id": "sum_list",
+    "keywords": ["sum of list"],
+    "content": "def sum_list(lst):\n    total = 0\n    for num in lst:\n        total += num\n    return total"
+  },
+  {
+    "id": "average_list",
+    "keywords": ["average"],
+    "content": "def average(lst):\n    if not lst:\n        return 0\n    return sum(lst) / len(lst)"
+  },
+  {
+    "id": "matrix_addition",
+    "keywords": ["matrix addition"],
+    "content": "def matrix_addition(A, B):\n    return [[A[i][j] + B[i][j] for j in range(len(A[0]))] for i in range(len(A))]"
+  },
+  {
+    "id": "matrix_transpose",
+    "keywords": ["transpose matrix"],
+    "content": "def transpose(matrix):\n    return [list(row) for row in zip(*matrix)]"
+  },
+  {
+    "id": "decimal_to_binary",
+    "keywords": ["decimal to binary"],
+    "content": "def decimal_to_binary(n):\n    return bin(n)[2:]"
+  },
+  {
+    "id": "binary_to_decimal",
+    "keywords": ["binary to decimal"],
+    "content": "def binary_to_decimal(b):\n    return int(b, 2)"
+  },
+  {
+    "id": "armstrong_number",
+    "keywords": ["armstrong"],
+    "content": "def is_armstrong(n):\n    digits = str(n)\n    power = len(digits)\n    return n == sum(int(d)**power for d in digits)"
+  },
+  {
+    "id": "factor_list",
+    "keywords": ["factors"],
+    "content": "def factors(n):\n    return [i for i in range(1, n+1) if n % i == 0]"
+  },
+  {
+    "id": "count_frequency",
+    "keywords": ["frequency"],
+    "content": "def count_frequency(lst):\n    freq = {}\n    for item in lst:\n        freq[item] = freq.get(item, 0) + 1\n    return freq"
+  },
+  {
+    "id": "check_even_odd",
+    "keywords": ["even or odd"],
+    "content": "def check_even_odd(n):\n    return 'Even' if n % 2 == 0 else 'Odd'"
+  },
+  {
+    "id": "swap_numbers",
+    "keywords": ["swap numbers"],
+    "content": "def swap(a, b):\n    return b, a"
+  },
+  {
+    "id": "random_number",
+    "keywords": ["random number"],
+    "content": "import random\n\ndef generate_random(start, end):\n    return random.randint(start, end)"
+  },
+  {
+    "id": "simple_interest",
+    "keywords": ["simple interest"],
+    "content": "def simple_interest(principal, rate, time):\n    return (principal * rate * time) / 100"
+  },
+  {
+    "id": "compound_interest",
+    "keywords": ["compound interest"],
+    "content": "def compound_interest(principal, rate, time):\n    return principal * (1 + rate/100) ** time - principal"
+  },
+  {
+    "id": "temperature_conversion",
+    "keywords": ["celsius to fahrenheit"],
+    "content": "def celsius_to_fahrenheit(c):\n    return (c * 9/5) + 32"
+  },
+  {
+    "id": "password_validator",
+    "keywords": ["validate password"],
+    "content": "def validate_password(password):\n    if len(password) < 8:\n        return False\n    has_digit = any(char.isdigit() for char in password)\n    has_upper = any(char.isupper() for char in password)\n    return has_digit and has_upper"
+  }
+]

@@ -1,0 +1,304 @@
+[
+  {
+    "id": "artificial_intelligence",
+    "title": "Artificial Intelligence",
+    "keywords": ["artificial intelligence", "ai"],
+    "description": "Artificial Intelligence is the field of computer science focused on building systems capable of performing tasks that typically require human intelligence, such as learning, reasoning, problem-solving, and language understanding."
+  },
+  {
+    "id": "machine_learning",
+    "title": "Machine Learning",
+    "keywords": ["machine learning", "ml"],
+    "description": "Machine Learning is a subset of Artificial Intelligence that enables systems to learn from data and improve performance without being explicitly programmed."
+  },
+  {
+    "id": "deep_learning",
+    "title": "Deep Learning",
+    "keywords": ["deep learning"],
+    "description": "Deep Learning is a branch of machine learning that uses neural networks with multiple layers to model complex patterns in data."
+  },
+  {
+    "id": "blockchain",
+    "title": "Blockchain",
+    "keywords": ["blockchain"],
+    "description": "Blockchain is a decentralized digital ledger that records transactions across multiple computers in a secure and immutable manner."
+  },
+  {
+    "id": "cybersecurity",
+    "title": "Cybersecurity",
+    "keywords": ["cybersecurity", "cyber security"],
+    "description": "Cybersecurity involves protecting computer systems, networks, and data from digital attacks, unauthorized access, and damage."
+  },
+  {
+    "id": "cloud_computing",
+    "title": "Cloud Computing",
+    "keywords": ["cloud computing"],
+    "description": "Cloud computing is the delivery of computing services such as storage, processing, and networking over the internet instead of local servers."
+  },
+  {
+    "id": "quantum_computing",
+    "title": "Quantum Computing",
+    "keywords": ["quantum computing"],
+    "description": "Quantum computing uses principles of quantum mechanics, such as superposition and entanglement, to perform computations more efficiently for certain complex problems."
+  },
+  {
+    "id": "big_data",
+    "title": "Big Data",
+    "keywords": ["big data"],
+    "description": "Big Data refers to extremely large datasets that require specialized tools and technologies for storage, processing, and analysis."
+  },
+  {
+    "id": "internet_of_things",
+    "title": "Internet of Things",
+    "keywords": ["internet of things", "iot"],
+    "description": "The Internet of Things is a network of physical devices embedded with sensors and connectivity that allows them to collect and exchange data."
+  },
+  {
+    "id": "sustainability",
+    "title": "Sustainability",
+    "keywords": ["sustainability"],
+    "description": "Sustainability refers to meeting present needs without compromising the ability of future generations to meet their own needs."
+  },
+  {
+    "id": "democracy",
+    "title": "Democracy",
+    "keywords": ["democracy"],
+    "description": "Democracy is a system of government in which power is vested in the people, who rule either directly or through elected representatives."
+  },
+  {
+    "id": "capitalism",
+    "title": "Capitalism",
+    "keywords": ["capitalism"],
+    "description": "Capitalism is an economic system based on private ownership of resources and production, driven by market competition and profit motives."
+  },
+  {
+    "id": "socialism",
+    "title": "Socialism",
+    "keywords": ["socialism"],
+    "description": "Socialism is an economic and political system in which the means of production are owned or regulated collectively by the community or the state."
+  },
+  {
+    "id": "globalization",
+    "title": "Globalization",
+    "keywords": ["globalization"],
+    "description": "Globalization is the process of increased interconnectedness among countries through trade, communication, culture, and technology."
+  },
+  {
+    "id": "entropy",
+    "title": "Entropy",
+    "keywords": ["entropy"],
+    "description": "Entropy is a measure of disorder or randomness in a system and is a central concept in thermodynamics and information theory."
+  },
+  {
+    "id": "evolution",
+    "title": "Evolution",
+    "keywords": ["evolution"],
+    "description": "Evolution is the biological process by which species change over generations through mechanisms such as natural selection and genetic variation."
+  },
+  {
+    "id": "supply_and_demand",
+    "title": "Supply and Demand",
+    "keywords": ["supply and demand"],
+    "description": "Supply and demand is an economic model that explains how prices are determined by the relationship between product availability and consumer desire."
+  },
+  {
+    "id": "inflation",
+    "title": "Inflation",
+    "keywords": ["inflation"],
+    "description": "Inflation is the rate at which the general level of prices for goods and services rises, reducing purchasing power."
+  },
+  {
+    "id": "ecosystem",
+    "title": "Ecosystem",
+    "keywords": ["ecosystem"],
+    "description": "An ecosystem is a biological community of interacting organisms and their physical environment."
+  },
+  {
+    "id": "critical_thinking",
+    "title": "Critical Thinking",
+    "keywords": ["critical thinking"],
+    "description": "Critical thinking is the ability to analyze facts objectively and evaluate information to form a reasoned judgment."
+  }
+,
+{
+  "id": "distributed_systems",
+  "title": "Distributed Systems",
+  "keywords": ["distributed systems"],
+  "description": "Distributed systems consist of multiple independent computers that communicate and coordinate to achieve a common goal. They improve scalability, reliability, and fault tolerance."
+},
+{
+  "id": "microservices",
+  "title": "Microservices Architecture",
+  "keywords": ["microservices"],
+  "description": "Microservices architecture structures an application as a collection of small, independent services that communicate over a network."
+},
+{
+  "id": "devops",
+  "title": "DevOps",
+  "keywords": ["devops"],
+  "description": "DevOps is a set of practices that combines software development and IT operations to shorten development cycles and improve reliability."
+},
+{
+  "id": "data_privacy",
+  "title": "Data Privacy",
+  "keywords": ["data privacy"],
+  "description": "Data privacy refers to the proper handling, processing, and protection of personal data to ensure confidentiality and security."
+},
+{
+  "id": "ai_ethics",
+  "title": "AI Ethics",
+  "keywords": ["ai ethics", "artificial intelligence ethics"],
+  "description": "AI Ethics studies the moral implications of artificial intelligence, including fairness, transparency, bias, and accountability."
+},
+{
+  "id": "reinforcement_learning",
+  "title": "Reinforcement Learning",
+  "keywords": ["reinforcement learning"],
+  "description": "Reinforcement Learning is a type of machine learning where an agent learns by interacting with an environment and receiving rewards or penalties."
+},
+{
+  "id": "neural_network",
+  "title": "Neural Network",
+  "keywords": ["neural network"],
+  "description": "A neural network is a computational model inspired by the human brain, consisting of interconnected layers of nodes that process information."
+},
+{
+  "id": "cryptography",
+  "title": "Cryptography",
+  "keywords": ["cryptography"],
+  "description": "Cryptography is the science of securing communication through encryption and decryption techniques."
+},
+{
+  "id": "supply_chain",
+  "title": "Supply Chain",
+  "keywords": ["supply chain"],
+  "description": "A supply chain is the network of individuals, organizations, and processes involved in producing and delivering a product."
+},
+{
+  "id": "market_economy",
+  "title": "Market Economy",
+  "keywords": ["market economy"],
+  "description": "A market economy is an economic system in which decisions regarding production and pricing are driven by supply and demand."
+},
+{
+  "id": "natural_selection",
+  "title": "Natural Selection",
+  "keywords": ["natural selection"],
+  "description": "Natural selection is the process by which organisms better adapted to their environment tend to survive and reproduce."
+},
+{
+  "id": "genetic_engineering",
+  "title": "Genetic Engineering",
+  "keywords": ["genetic engineering"],
+  "description": "Genetic engineering involves directly modifying an organism's DNA to achieve desired traits."
+},
+{
+  "id": "renewable_energy",
+  "title": "Renewable Energy",
+  "keywords": ["renewable energy"],
+  "description": "Renewable energy is energy derived from natural resources such as sunlight, wind, and water that are replenished naturally."
+},
+{
+  "id": "circular_economy",
+  "title": "Circular Economy",
+  "keywords": ["circular economy"],
+  "description": "A circular economy is an economic system aimed at minimizing waste and making the most of resources through reuse and recycling."
+},
+{
+  "id": "behavioral_economics",
+  "title": "Behavioral Economics",
+  "keywords": ["behavioral economics"],
+  "description": "Behavioral economics studies how psychological factors influence economic decision-making."
+},
+{
+  "id": "risk_management",
+  "title": "Risk Management",
+  "keywords": ["risk management"],
+  "description": "Risk management is the process of identifying, assessing, and controlling threats to an organization’s capital and earnings."
+},
+{
+  "id": "digital_transformation",
+  "title": "Digital Transformation",
+  "keywords": ["digital transformation"],
+  "description": "Digital transformation refers to integrating digital technologies into all areas of a business to improve operations and value delivery."
+},
+{
+  "id": "systems_thinking",
+  "title": "Systems Thinking",
+  "keywords": ["systems thinking"],
+  "description": "Systems thinking is an analytical approach that views complex systems as interconnected components rather than isolated parts."
+},
+{
+  "id": "game_theory",
+  "title": "Game Theory",
+  "keywords": ["game theory"],
+  "description": "Game theory studies strategic interactions where the outcome for each participant depends on the actions of others."
+},
+{
+  "id": "human_computer_interaction",
+  "title": "Human-Computer Interaction",
+  "keywords": ["human computer interaction", "hci"],
+  "description": "Human-Computer Interaction studies the design and use of computer technology, focusing on user interfaces and usability."
+}
+,
+{
+  "id": "automation",
+  "title": "Automation",
+  "keywords": ["automation"],
+  "description": "Automation refers to the use of technology to perform tasks with minimal human intervention, increasing efficiency and consistency."
+},
+{
+  "id": "edge_computing",
+  "title": "Edge Computing",
+  "keywords": ["edge computing"],
+  "description": "Edge computing is a distributed computing model that processes data closer to the data source instead of relying solely on centralized cloud servers."
+},
+{
+  "id": "information_theory",
+  "title": "Information Theory",
+  "keywords": ["information theory"],
+  "description": "Information theory studies the quantification, storage, and communication of information, forming the foundation of data compression and encryption."
+},
+{
+  "id": "resilience",
+  "title": "Resilience",
+  "keywords": ["resilience"],
+  "description": "Resilience is the ability of a system, organization, or individual to withstand and recover from disruptions or stress."
+},
+{
+  "id": "optimization",
+  "title": "Optimization",
+  "keywords": ["optimization"],
+  "description": "Optimization is the process of making a system or decision as effective or efficient as possible under given constraints."
+},
+{
+  "id": "feedback_loop",
+  "title": "Feedback Loop",
+  "keywords": ["feedback loop"],
+  "description": "A feedback loop occurs when the output of a system is fed back into the system as input, influencing future outputs."
+},
+{
+  "id": "emergence",
+  "title": "Emergence",
+  "keywords": ["emergence"],
+  "description": "Emergence describes complex patterns or behaviors arising from simple interactions among smaller components of a system."
+},
+{
+  "id": "interoperability",
+  "title": "Interoperability",
+  "keywords": ["interoperability"],
+  "description": "Interoperability is the ability of different systems or organizations to work together and exchange information effectively."
+},
+{
+  "id": "scalability",
+  "title": "Scalability",
+  "keywords": ["scalability"],
+  "description": "Scalability is the capacity of a system to handle increasing workloads without performance degradation."
+},
+{
+  "id": "transparency",
+  "title": "Transparency",
+  "keywords": ["transparency"],
+  "description": "Transparency refers to openness and clarity in processes, decisions, and communication, enabling trust and accountability."
+}
+]

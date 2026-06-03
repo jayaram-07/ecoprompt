@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EcoPrompt Architecture</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f8fafc;
+        color: #0f172a;
+      }
+
+      header {
+        padding: 24px 32px 12px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 28px;
+      }
+
+      .actions {
+        display: flex;
+        gap: 12px;
+        padding: 0 32px 20px;
+      }
+
+      button {
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        background: #ffffff;
+        color: #0f172a;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 10px 14px;
+      }
+
+      .diagram-wrap {
+        margin: 0 32px 32px;
+        padding: 24px;
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 12px;
+        overflow: auto;
+      }
+
+      .mermaid {
+        min-width: 1200px;
+      }
+
+      @media print {
+        header,
+        .actions {
+          display: none;
+        }
+
+        body {
+          background: #ffffff;
+        }
+
+        .diagram-wrap {
+          margin: 0;
+          border: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>EcoPrompt Architecture</h1>
+    </header>
+
+    <div class="actions">
+      <button onclick="window.print()">Print / Save as PDF</button>
+      <button onclick="downloadSvg()">Download SVG</button>
+    </div>
+
+    <main class="diagram-wrap">
+      <pre class="mermaid">
+flowchart TB
+    User["User"] --> UI["React Frontend<br/>Vite App"]
+
+    UI --> ChatUI["Chat Console<br/>messages, history, web toggle, copy buttons"]
+    UI --> DashUI["Analytics Dashboard<br/>latency, cost, energy, route distribution"]
+
+    ChatUI --> API["FastAPI Backend<br/>main.py"]
+    DashUI --> MetricsAPI["GET /metrics"]
+    MetricsAPI --> MetricsStore["In-Memory Metrics Store"]
+
+    API --> Validate["Input Validation"]
+
+    Validate --> Deterministic["Deterministic Engine<br/>math, conversions, greetings, prime checks"]
+    Deterministic -->|matched| Response["Response to Frontend"]
+
+    Validate -->|web_search = true| WebRoute["Web Search Route"]
+    WebRoute --> Gemini["Gemini API<br/>Google Search Grounding"]
+    Gemini --> SourceFilter["Source Extraction + Trust Filter<br/>block weak domains, rank trusted sources"]
+    SourceFilter --> LocalFormatter["Optional Local Formatting<br/>Ollama llama3.2:1b"]
+    LocalFormatter --> Response
+
+    Validate -->|code request| TemplateEngine["Code Template Engine<br/>kb/code_templates.json"]
+    TemplateEngine -->|template match| Response
+    TemplateEngine -->|no template| LocalCode["Local Model Code Fallback<br/>normalize into fenced code block"]
+    LocalCode --> Response
+
+    Validate --> KBLookup["Domain KB Lookups"]
+    KBLookup --> Geography["Geography KB"]
+    KBLookup --> MathKB["Math KB"]
+    KBLookup --> Science["Science KB"]
+    KBLookup --> History["History KB"]
+    KBLookup --> Programming["Programming KB"]
+    KBLookup --> HighLevel["High-Level Concepts KB"]
+
+    KBLookup -->|relevant match| KBContext["Build Context Prompt"]
+    KBContext --> LocalModel["Local Ollama Model<br/>llama3.2:1b"]
+    LocalModel --> Response
+
+    Validate --> RAG["Local RAG Engine<br/>retrieve_top_k"]
+    RAG --> LocalJSON["Local JSON Knowledge Files"]
+    LocalJSON --> RAGContext["Build RAG Context Prompt"]
+    RAGContext --> LocalModel
+
+    Validate -->|fallback| LocalModel
+    LocalModel --> WeakCheck["Weak Response / Complexity Check"]
+
+    WeakCheck -->|simple or good enough| Response
+    WeakCheck -->|complex or weak non-web prompt| Groq["Groq Fallback<br/>llama-3.1-8b-instant"]
+    Groq --> Response
+
+    Response --> UI
+
+    Response --> MetricsUpdate["Update Metrics<br/>route, latency, energy, cost"]
+    MetricsUpdate --> MetricsStore
+
+    ChatUI --> BrowserStorage["Browser localStorage<br/>chat history + titles"]
+    BrowserStorage --> ChatUI
+      </pre>
+    </main>
+
+    <script type="module">
+      import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+      mermaid.initialize({ startOnLoad: true, securityLevel: "loose" });
+
+      window.downloadSvg = function downloadSvg() {
+        const svg = document.querySelector(".diagram-wrap svg");
+        if (!svg) return;
+        const blob = new Blob([svg.outerHTML], { type: "image/svg+xml;charset=utf-8" });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "ecoprompt_architecture.svg";
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        URL.revokeObjectURL(url);
+      };
+    </script>
+  </body>
+</html>

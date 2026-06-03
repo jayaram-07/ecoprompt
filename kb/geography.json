@@ -1,0 +1,2082 @@
+{
+  "continents": [
+    {
+      "name": "Africa"
+    },
+    {
+      "name": "Americas"
+    },
+    {
+      "name": "Antarctic"
+    },
+    {
+      "name": "Asia"
+    },
+    {
+      "name": "Europe"
+    },
+    {
+      "name": "Oceania"
+    }
+  ],
+  "countries": [
+    {
+      "name": "Afghanistan",
+      "capital": "Kabul",
+      "currency": "Afghan afghani",
+      "iso": "AF",
+      "continent": "Asia"
+    },
+    {
+      "name": "Albania",
+      "capital": "Tirana",
+      "currency": "Albanian lek",
+      "iso": "AL",
+      "continent": "Europe"
+    },
+    {
+      "name": "Algeria",
+      "capital": "Algiers",
+      "currency": "Algerian dinar",
+      "iso": "DZ",
+      "continent": "Africa"
+    },
+    {
+      "name": "American Samoa",
+      "capital": "Pago Pago",
+      "currency": "United States dollar",
+      "iso": "AS",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Andorra",
+      "capital": "Andorra la Vella",
+      "currency": "Euro",
+      "iso": "AD",
+      "continent": "Europe"
+    },
+    {
+      "name": "Angola",
+      "capital": "Luanda",
+      "currency": "Angolan kwanza",
+      "iso": "AO",
+      "continent": "Africa"
+    },
+    {
+      "name": "Anguilla",
+      "capital": "The Valley",
+      "currency": "Eastern Caribbean dollar",
+      "iso": "AI",
+      "continent": "Americas"
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "capital": "Saint John's",
+      "currency": "Eastern Caribbean dollar",
+      "iso": "AG",
+      "continent": "Americas"
+    },
+    {
+      "name": "Argentina",
+      "capital": "Buenos Aires",
+      "currency": "Argentine peso",
+      "iso": "AR",
+      "continent": "Americas"
+    },
+    {
+      "name": "Armenia",
+      "capital": "Yerevan",
+      "currency": "Armenian dram",
+      "iso": "AM",
+      "continent": "Asia"
+    },
+    {
+      "name": "Aruba",
+      "capital": "Oranjestad",
+      "currency": "Aruban florin",
+      "iso": "AW",
+      "continent": "Americas"
+    },
+    {
+      "name": "Australia",
+      "capital": "Canberra",
+      "currency": "Australian dollar",
+      "iso": "AU",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Austria",
+      "capital": "Vienna",
+      "currency": "Euro",
+      "iso": "AT",
+      "continent": "Europe"
+    },
+    {
+      "name": "Azerbaijan",
+      "capital": "Baku",
+      "currency": "Azerbaijani manat",
+      "iso": "AZ",
+      "continent": "Asia"
+    },
+    {
+      "name": "Bahamas",
+      "capital": "Nassau",
+      "currency": "Bahamian dollar",
+      "iso": "BS",
+      "continent": "Americas"
+    },
+    {
+      "name": "Bahrain",
+      "capital": "Manama",
+      "currency": "Bahraini dinar",
+      "iso": "BH",
+      "continent": "Asia"
+    },
+    {
+      "name": "Bangladesh",
+      "capital": "Dhaka",
+      "currency": "Bangladeshi taka",
+      "iso": "BD",
+      "continent": "Asia"
+    },
+    {
+      "name": "Barbados",
+      "capital": "Bridgetown",
+      "currency": "Barbadian dollar",
+      "iso": "BB",
+      "continent": "Americas"
+    },
+    {
+      "name": "Belarus",
+      "capital": "Minsk",
+      "currency": "Belarusian ruble",
+      "iso": "BY",
+      "continent": "Europe"
+    },
+    {
+      "name": "Belgium",
+      "capital": "Brussels",
+      "currency": "Euro",
+      "iso": "BE",
+      "continent": "Europe"
+    },
+    {
+      "name": "Belize",
+      "capital": "Belmopan",
+      "currency": "Belize dollar",
+      "iso": "BZ",
+      "continent": "Americas"
+    },
+    {
+      "name": "Benin",
+      "capital": "Porto-Novo",
+      "currency": "West African CFA franc",
+      "iso": "BJ",
+      "continent": "Africa"
+    },
+    {
+      "name": "Bermuda",
+      "capital": "Hamilton",
+      "currency": "Bermudian dollar",
+      "iso": "BM",
+      "continent": "Americas"
+    },
+    {
+      "name": "Bhutan",
+      "capital": "Thimphu",
+      "currency": "Bhutanese ngultrum",
+      "iso": "BT",
+      "continent": "Asia"
+    },
+    {
+      "name": "Bolivia",
+      "capital": "Sucre",
+      "currency": "Bolivian boliviano",
+      "iso": "BO",
+      "continent": "Americas"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "capital": "Sarajevo",
+      "currency": "Bosnia and Herzegovina convertible mark",
+      "iso": "BA",
+      "continent": "Europe"
+    },
+    {
+      "name": "Botswana",
+      "capital": "Gaborone",
+      "currency": "Botswana pula",
+      "iso": "BW",
+      "continent": "Africa"
+    },
+    {
+      "name": "Brazil",
+      "capital": "Brasília",
+      "currency": "Brazilian real",
+      "iso": "BR",
+      "continent": "Americas"
+    },
+    {
+      "name": "British Indian Ocean Territory",
+      "capital": "Diego Garcia",
+      "currency": "United States dollar",
+      "iso": "IO",
+      "continent": "Africa"
+    },
+    {
+      "name": "British Virgin Islands",
+      "capital": "Road Town",
+      "currency": "United States dollar",
+      "iso": "VG",
+      "continent": "Americas"
+    },
+    {
+      "name": "Brunei",
+      "capital": "Bandar Seri Begawan",
+      "currency": "Brunei dollar",
+      "iso": "BN",
+      "continent": "Asia"
+    },
+    {
+      "name": "Bulgaria",
+      "capital": "Sofia",
+      "currency": "Bulgarian lev",
+      "iso": "BG",
+      "continent": "Europe"
+    },
+    {
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou",
+      "currency": "West African CFA franc",
+      "iso": "BF",
+      "continent": "Africa"
+    },
+    {
+      "name": "Burundi",
+      "capital": "Gitega",
+      "currency": "Burundian franc",
+      "iso": "BI",
+      "continent": "Africa"
+    },
+    {
+      "name": "Cambodia",
+      "capital": "Phnom Penh",
+      "currency": "Cambodian riel",
+      "iso": "KH",
+      "continent": "Asia"
+    },
+    {
+      "name": "Cameroon",
+      "capital": "Yaoundé",
+      "currency": "Central African CFA franc",
+      "iso": "CM",
+      "continent": "Africa"
+    },
+    {
+      "name": "Canada",
+      "capital": "Ottawa",
+      "currency": "Canadian dollar",
+      "iso": "CA",
+      "continent": "Americas"
+    },
+    {
+      "name": "Cape Verde",
+      "capital": "Praia",
+      "currency": "Cape Verdean escudo",
+      "iso": "CV",
+      "continent": "Africa"
+    },
+    {
+      "name": "Caribbean Netherlands",
+      "capital": "Kralendijk",
+      "currency": "United States dollar",
+      "iso": "BQ",
+      "continent": "Americas"
+    },
+    {
+      "name": "Cayman Islands",
+      "capital": "George Town",
+      "currency": "Cayman Islands dollar",
+      "iso": "KY",
+      "continent": "Americas"
+    },
+    {
+      "name": "Central African Republic",
+      "capital": "Bangui",
+      "currency": "Central African CFA franc",
+      "iso": "CF",
+      "continent": "Africa"
+    },
+    {
+      "name": "Chad",
+      "capital": "N'Djamena",
+      "currency": "Central African CFA franc",
+      "iso": "TD",
+      "continent": "Africa"
+    },
+    {
+      "name": "Chile",
+      "capital": "Santiago",
+      "currency": "Chilean peso",
+      "iso": "CL",
+      "continent": "Americas"
+    },
+    {
+      "name": "China",
+      "capital": "Beijing",
+      "currency": "Chinese yuan",
+      "iso": "CN",
+      "continent": "Asia"
+    },
+    {
+      "name": "Christmas Island",
+      "capital": "Flying Fish Cove",
+      "currency": "Australian dollar",
+      "iso": "CX",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Cocos (Keeling) Islands",
+      "capital": "West Island",
+      "currency": "Australian dollar",
+      "iso": "CC",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Colombia",
+      "capital": "Bogotá",
+      "currency": "Colombian peso",
+      "iso": "CO",
+      "continent": "Americas"
+    },
+    {
+      "name": "Comoros",
+      "capital": "Moroni",
+      "currency": "Comorian franc",
+      "iso": "KM",
+      "continent": "Africa"
+    },
+    {
+      "name": "Congo",
+      "capital": "Brazzaville",
+      "currency": "Central African CFA franc",
+      "iso": "CG",
+      "continent": "Africa"
+    },
+    {
+      "name": "Cook Islands",
+      "capital": "Avarua",
+      "currency": "Cook Islands dollar",
+      "iso": "CK",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Costa Rica",
+      "capital": "San José",
+      "currency": "Costa Rican colón",
+      "iso": "CR",
+      "continent": "Americas"
+    },
+    {
+      "name": "Croatia",
+      "capital": "Zagreb",
+      "currency": "Euro",
+      "iso": "HR",
+      "continent": "Europe"
+    },
+    {
+      "name": "Cuba",
+      "capital": "Havana",
+      "currency": "Cuban convertible peso",
+      "iso": "CU",
+      "continent": "Americas"
+    },
+    {
+      "name": "Curaçao",
+      "capital": "Willemstad",
+      "currency": "Netherlands Antillean guilder",
+      "iso": "CW",
+      "continent": "Americas"
+    },
+    {
+      "name": "Cyprus",
+      "capital": "Nicosia",
+      "currency": "Euro",
+      "iso": "CY",
+      "continent": "Europe"
+    },
+    {
+      "name": "Czechia",
+      "capital": "Prague",
+      "currency": "Czech koruna",
+      "iso": "CZ",
+      "continent": "Europe"
+    },
+    {
+      "name": "DR Congo",
+      "capital": "Kinshasa",
+      "currency": "Congolese franc",
+      "iso": "CD",
+      "continent": "Africa"
+    },
+    {
+      "name": "Denmark",
+      "capital": "Copenhagen",
+      "currency": "Danish krone",
+      "iso": "DK",
+      "continent": "Europe"
+    },
+    {
+      "name": "Djibouti",
+      "capital": "Djibouti",
+      "currency": "Djiboutian franc",
+      "iso": "DJ",
+      "continent": "Africa"
+    },
+    {
+      "name": "Dominica",
+      "capital": "Roseau",
+      "currency": "Eastern Caribbean dollar",
+      "iso": "DM",
+      "continent": "Americas"
+    },
+    {
+      "name": "Dominican Republic",
+      "capital": "Santo Domingo",
+      "currency": "Dominican peso",
+      "iso": "DO",
+      "continent": "Americas"
+    },
+    {
+      "name": "Ecuador",
+      "capital": "Quito",
+      "currency": "United States dollar",
+      "iso": "EC",
+      "continent": "Americas"
+    },
+    {
+      "name": "Egypt",
+      "capital": "Cairo",
+      "currency": "Egyptian pound",
+      "iso": "EG",
+      "continent": "Africa"
+    },
+    {
+      "name": "El Salvador",
+      "capital": "San Salvador",
+      "currency": "United States dollar",
+      "iso": "SV",
+      "continent": "Americas"
+    },
+    {
+      "name": "Equatorial Guinea",
+      "capital": "Malabo",
+      "currency": "Central African CFA franc",
+      "iso": "GQ",
+      "continent": "Africa"
+    },
+    {
+      "name": "Eritrea",
+      "capital": "Asmara",
+      "currency": "Eritrean nakfa",
+      "iso": "ER",
+      "continent": "Africa"
+    },
+    {
+      "name": "Estonia",
+      "capital": "Tallinn",
+      "currency": "Euro",
+      "iso": "EE",
+      "continent": "Europe"
+    },
+    {
+      "name": "Eswatini",
+      "capital": "Lobamba",
+      "currency": "Swazi lilangeni",
+      "iso": "SZ",
+      "continent": "Africa"
+    },
+    {
+      "name": "Ethiopia",
+      "capital": "Addis Ababa",
+      "currency": "Ethiopian birr",
+      "iso": "ET",
+      "continent": "Africa"
+    },
+    {
+      "name": "Falkland Islands",
+      "capital": "Stanley",
+      "currency": "Falkland Islands pound",
+      "iso": "FK",
+      "continent": "Americas"
+    },
+    {
+      "name": "Faroe Islands",
+      "capital": "Tórshavn",
+      "currency": "Danish krone",
+      "iso": "FO",
+      "continent": "Europe"
+    },
+    {
+      "name": "Fiji",
+      "capital": "Suva",
+      "currency": "Fijian dollar",
+      "iso": "FJ",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Finland",
+      "capital": "Helsinki",
+      "currency": "Euro",
+      "iso": "FI",
+      "continent": "Europe"
+    },
+    {
+      "name": "France",
+      "capital": "Paris",
+      "currency": "Euro",
+      "iso": "FR",
+      "continent": "Europe"
+    },
+    {
+      "name": "French Guiana",
+      "capital": "Cayenne",
+      "currency": "Euro",
+      "iso": "GF",
+      "continent": "Americas"
+    },
+    {
+      "name": "French Polynesia",
+      "capital": "Papeetē",
+      "currency": "CFP franc",
+      "iso": "PF",
+      "continent": "Oceania"
+    },
+    {
+      "name": "French Southern and Antarctic Lands",
+      "capital": "Port-aux-Français",
+      "currency": "Euro",
+      "iso": "TF",
+      "continent": "Antarctic"
+    },
+    {
+      "name": "Gabon",
+      "capital": "Libreville",
+      "currency": "Central African CFA franc",
+      "iso": "GA",
+      "continent": "Africa"
+    },
+    {
+      "name": "Gambia",
+      "capital": "Banjul",
+      "currency": "dalasi",
+      "iso": "GM",
+      "continent": "Africa"
+    },
+    {
+      "name": "Georgia",
+      "capital": "Tbilisi",
+      "currency": "lari",
+      "iso": "GE",
+      "continent": "Asia"
+    },
+    {
+      "name": "Germany",
+      "capital": "Berlin",
+      "currency": "Euro",
+      "iso": "DE",
+      "continent": "Europe"
+    },
+    {
+      "name": "Ghana",
+      "capital": "Accra",
+      "currency": "Ghanaian cedi",
+      "iso": "GH",
+      "continent": "Africa"
+    },
+    {
+      "name": "Gibraltar",
+      "capital": "Gibraltar",
+      "currency": "Gibraltar pound",
+      "iso": "GI",
+      "continent": "Europe"
+    },
+    {
+      "name": "Greece",
+      "capital": "Athens",
+      "currency": "Euro",
+      "iso": "GR",
+      "continent": "Europe"
+    },
+    {
+      "name": "Greenland",
+      "capital": "Nuuk",
+      "currency": "krone",
+      "iso": "GL",
+      "continent": "Americas"
+    },
+    {
+      "name": "Grenada",
+      "capital": "St. George's",
+      "currency": "Eastern Caribbean dollar",
+      "iso": "GD",
+      "continent": "Americas"
+    },
+    {
+      "name": "Guadeloupe",
+      "capital": "Basse-Terre",
+      "currency": "Euro",
+      "iso": "GP",
+      "continent": "Americas"
+    },
+    {
+      "name": "Guam",
+      "capital": "Hagåtña",
+      "currency": "United States dollar",
+      "iso": "GU",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Guatemala",
+      "capital": "Guatemala City",
+      "currency": "Guatemalan quetzal",
+      "iso": "GT",
+      "continent": "Americas"
+    },
+    {
+      "name": "Guernsey",
+      "capital": "St. Peter Port",
+      "currency": "British pound",
+      "iso": "GG",
+      "continent": "Europe"
+    },
+    {
+      "name": "Guinea",
+      "capital": "Conakry",
+      "currency": "Guinean franc",
+      "iso": "GN",
+      "continent": "Africa"
+    },
+    {
+      "name": "Guinea-Bissau",
+      "capital": "Bissau",
+      "currency": "West African CFA franc",
+      "iso": "GW",
+      "continent": "Africa"
+    },
+    {
+      "name": "Guyana",
+      "capital": "Georgetown",
+      "currency": "Guyanese dollar",
+      "iso": "GY",
+      "continent": "Americas"
+    },
+    {
+      "name": "Haiti",
+      "capital": "Port-au-Prince",
+      "currency": "Haitian gourde",
+      "iso": "HT",
+      "continent": "Americas"
+    },
+    {
+      "name": "Honduras",
+      "capital": "Tegucigalpa",
+      "currency": "Honduran lempira",
+      "iso": "HN",
+      "continent": "Americas"
+    },
+    {
+      "name": "Hong Kong",
+      "capital": "City of Victoria",
+      "currency": "Hong Kong dollar",
+      "iso": "HK",
+      "continent": "Asia"
+    },
+    {
+      "name": "Hungary",
+      "capital": "Budapest",
+      "currency": "Hungarian forint",
+      "iso": "HU",
+      "continent": "Europe"
+    },
+    {
+      "name": "Iceland",
+      "capital": "Reykjavik",
+      "currency": "Icelandic króna",
+      "iso": "IS",
+      "continent": "Europe"
+    },
+    {
+      "name": "India",
+      "capital": "New Delhi",
+      "currency": "Indian rupee",
+      "iso": "IN",
+      "continent": "Asia"
+    },
+    {
+      "name": "Indonesia",
+      "capital": "Jakarta",
+      "currency": "Indonesian rupiah",
+      "iso": "ID",
+      "continent": "Asia"
+    },
+    {
+      "name": "Iran",
+      "capital": "Tehran",
+      "currency": "Iranian rial",
+      "iso": "IR",
+      "continent": "Asia"
+    },
+    {
+      "name": "Iraq",
+      "capital": "Baghdad",
+      "currency": "Iraqi dinar",
+      "iso": "IQ",
+      "continent": "Asia"
+    },
+    {
+      "name": "Ireland",
+      "capital": "Dublin",
+      "currency": "Euro",
+      "iso": "IE",
+      "continent": "Europe"
+    },
+    {
+      "name": "Isle of Man",
+      "capital": "Douglas",
+      "currency": "British pound",
+      "iso": "IM",
+      "continent": "Europe"
+    },
+    {
+      "name": "Israel",
+      "capital": "Jerusalem",
+      "currency": "Israeli new shekel",
+      "iso": "IL",
+      "continent": "Asia"
+    },
+    {
+      "name": "Italy",
+      "capital": "Rome",
+      "currency": "Euro",
+      "iso": "IT",
+      "continent": "Europe"
+    },
+    {
+      "name": "Ivory Coast",
+      "capital": "Yamoussoukro",
+      "currency": "West African CFA franc",
+      "iso": "CI",
+      "continent": "Africa"
+    },
+    {
+      "name": "Jamaica",
+      "capital": "Kingston",
+      "currency": "Jamaican dollar",
+      "iso": "JM",
+      "continent": "Americas"
+    },
+    {
+      "name": "Japan",
+      "capital": "Tokyo",
+      "currency": "Japanese yen",
+      "iso": "JP",
+      "continent": "Asia"
+    },
+    {
+      "name": "Jersey",
+      "capital": "Saint Helier",
+      "currency": "British pound",
+      "iso": "JE",
+      "continent": "Europe"
+    },
+    {
+      "name": "Jordan",
+      "capital": "Amman",
+      "currency": "Jordanian dinar",
+      "iso": "JO",
+      "continent": "Asia"
+    },
+    {
+      "name": "Kazakhstan",
+      "capital": "Astana",
+      "currency": "Kazakhstani tenge",
+      "iso": "KZ",
+      "continent": "Asia"
+    },
+    {
+      "name": "Kenya",
+      "capital": "Nairobi",
+      "currency": "Kenyan shilling",
+      "iso": "KE",
+      "continent": "Africa"
+    },
+    {
+      "name": "Kiribati",
+      "capital": "South Tarawa",
+      "currency": "Australian dollar",
+      "iso": "KI",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Kosovo",
+      "capital": "Pristina",
+      "currency": "Euro",
+      "iso": "XK",
+      "continent": "Europe"
+    },
+    {
+      "name": "Kuwait",
+      "capital": "Kuwait City",
+      "currency": "Kuwaiti dinar",
+      "iso": "KW",
+      "continent": "Asia"
+    },
+    {
+      "name": "Kyrgyzstan",
+      "capital": "Bishkek",
+      "currency": "Kyrgyzstani som",
+      "iso": "KG",
+      "continent": "Asia"
+    },
+    {
+      "name": "Laos",
+      "capital": "Vientiane",
+      "currency": "Lao kip",
+      "iso": "LA",
+      "continent": "Asia"
+    },
+    {
+      "name": "Latvia",
+      "capital": "Riga",
+      "currency": "Euro",
+      "iso": "LV",
+      "continent": "Europe"
+    },
+    {
+      "name": "Lebanon",
+      "capital": "Beirut",
+      "currency": "Lebanese pound",
+      "iso": "LB",
+      "continent": "Asia"
+    },
+    {
+      "name": "Lesotho",
+      "capital": "Maseru",
+      "currency": "Lesotho loti",
+      "iso": "LS",
+      "continent": "Africa"
+    },
+    {
+      "name": "Liberia",
+      "capital": "Monrovia",
+      "currency": "Liberian dollar",
+      "iso": "LR",
+      "continent": "Africa"
+    },
+    {
+      "name": "Libya",
+      "capital": "Tripoli",
+      "currency": "Libyan dinar",
+      "iso": "LY",
+      "continent": "Africa"
+    },
+    {
+      "name": "Liechtenstein",
+      "capital": "Vaduz",
+      "currency": "Swiss franc",
+      "iso": "LI",
+      "continent": "Europe"
+    },
+    {
+      "name": "Lithuania",
+      "capital": "Vilnius",
+      "currency": "Euro",
+      "iso": "LT",
+      "continent": "Europe"
+    },
+    {
+      "name": "Luxembourg",
+      "capital": "Luxembourg",
+      "currency": "Euro",
+      "iso": "LU",
+      "continent": "Europe"
+    },
+    {
+      "name": "Madagascar",
+      "capital": "Antananarivo",
+      "currency": "Malagasy ariary",
+      "iso": "MG",
+      "continent": "Africa"
+    },
+    {
+      "name": "Malawi",
+      "capital": "Lilongwe",
+      "currency": "Malawian kwacha",
+      "iso": "MW",
+      "continent": "Africa"
+    },
+    {
+      "name": "Malaysia",
+      "capital": "Kuala Lumpur",
+      "currency": "Malaysian ringgit",
+      "iso": "MY",
+      "continent": "Asia"
+    },
+    {
+      "name": "Maldives",
+      "capital": "Malé",
+      "currency": "Maldivian rufiyaa",
+      "iso": "MV",
+      "continent": "Asia"
+    },
+    {
+      "name": "Mali",
+      "capital": "Bamako",
+      "currency": "West African CFA franc",
+      "iso": "ML",
+      "continent": "Africa"
+    },
+    {
+      "name": "Malta",
+      "capital": "Valletta",
+      "currency": "Euro",
+      "iso": "MT",
+      "continent": "Europe"
+    },
+    {
+      "name": "Marshall Islands",
+      "capital": "Majuro",
+      "currency": "United States dollar",
+      "iso": "MH",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Martinique",
+      "capital": "Fort-de-France",
+      "currency": "Euro",
+      "iso": "MQ",
+      "continent": "Americas"
+    },
+    {
+      "name": "Mauritania",
+      "capital": "Nouakchott",
+      "currency": "Mauritanian ouguiya",
+      "iso": "MR",
+      "continent": "Africa"
+    },
+    {
+      "name": "Mauritius",
+      "capital": "Port Louis",
+      "currency": "Mauritian rupee",
+      "iso": "MU",
+      "continent": "Africa"
+    },
+    {
+      "name": "Mayotte",
+      "capital": "Mamoudzou",
+      "currency": "Euro",
+      "iso": "YT",
+      "continent": "Africa"
+    },
+    {
+      "name": "Mexico",
+      "capital": "Mexico City",
+      "currency": "Mexican peso",
+      "iso": "MX",
+      "continent": "Americas"
+    },
+    {
+      "name": "Moldova",
+      "capital": "Chișinău",
+      "currency": "Moldovan leu",
+      "iso": "MD",
+      "continent": "Europe"
+    },
+    {
+      "name": "Monaco",
+      "capital": "Monaco",
+      "currency": "Euro",
+      "iso": "MC",
+      "continent": "Europe"
+    },
+    {
+      "name": "Mongolia",
+      "capital": "Ulan Bator",
+      "currency": "Mongolian tögrög",
+      "iso": "MN",
+      "continent": "Asia"
+    },
+    {
+      "name": "Montenegro",
+      "capital": "Podgorica",
+      "currency": "Euro",
+      "iso": "ME",
+      "continent": "Europe"
+    },
+    {
+      "name": "Montserrat",
+      "capital": "Plymouth",
+      "currency": "Eastern Caribbean dollar",
+      "iso": "MS",
+      "continent": "Americas"
+    },
+    {
+      "name": "Morocco",
+      "capital": "Rabat",
+      "currency": "Moroccan dirham",
+      "iso": "MA",
+      "continent": "Africa"
+    },
+    {
+      "name": "Mozambique",
+      "capital": "Maputo",
+      "currency": "Mozambican metical",
+      "iso": "MZ",
+      "continent": "Africa"
+    },
+    {
+      "name": "Myanmar",
+      "capital": "Naypyidaw",
+      "currency": "Burmese kyat",
+      "iso": "MM",
+      "continent": "Asia"
+    },
+    {
+      "name": "Namibia",
+      "capital": "Windhoek",
+      "currency": "Namibian dollar",
+      "iso": "NA",
+      "continent": "Africa"
+    },
+    {
+      "name": "Nauru",
+      "capital": "Yaren",
+      "currency": "Australian dollar",
+      "iso": "NR",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Nepal",
+      "capital": "Kathmandu",
+      "currency": "Nepalese rupee",
+      "iso": "NP",
+      "continent": "Asia"
+    },
+    {
+      "name": "Netherlands",
+      "capital": "Amsterdam",
+      "currency": "Euro",
+      "iso": "NL",
+      "continent": "Europe"
+    },
+    {
+      "name": "New Caledonia",
+      "capital": "Nouméa",
+      "currency": "CFP franc",
+      "iso": "NC",
+      "continent": "Oceania"
+    },
+    {
+      "name": "New Zealand",
+      "capital": "Wellington",
+      "currency": "New Zealand dollar",
+      "iso": "NZ",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Nicaragua",
+      "capital": "Managua",
+      "currency": "Nicaraguan córdoba",
+      "iso": "NI",
+      "continent": "Americas"
+    },
+    {
+      "name": "Niger",
+      "capital": "Niamey",
+      "currency": "West African CFA franc",
+      "iso": "NE",
+      "continent": "Africa"
+    },
+    {
+      "name": "Nigeria",
+      "capital": "Abuja",
+      "currency": "Nigerian naira",
+      "iso": "NG",
+      "continent": "Africa"
+    },
+    {
+      "name": "Niue",
+      "capital": "Alofi",
+      "currency": "New Zealand dollar",
+      "iso": "NU",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Norfolk Island",
+      "capital": "Kingston",
+      "currency": "Australian dollar",
+      "iso": "NF",
+      "continent": "Oceania"
+    },
+    {
+      "name": "North Korea",
+      "capital": "Pyongyang",
+      "currency": "North Korean won",
+      "iso": "KP",
+      "continent": "Asia"
+    },
+    {
+      "name": "North Macedonia",
+      "capital": "Skopje",
+      "currency": "denar",
+      "iso": "MK",
+      "continent": "Europe"
+    },
+    {
+      "name": "Northern Mariana Islands",
+      "capital": "Saipan",
+      "currency": "United States dollar",
+      "iso": "MP",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Norway",
+      "capital": "Oslo",
+      "currency": "Norwegian krone",
+      "iso": "NO",
+      "continent": "Europe"
+    },
+    {
+      "name": "Oman",
+      "capital": "Muscat",
+      "currency": "Omani rial",
+      "iso": "OM",
+      "continent": "Asia"
+    },
+    {
+      "name": "Pakistan",
+      "capital": "Islamabad",
+      "currency": "Pakistani rupee",
+      "iso": "PK",
+      "continent": "Asia"
+    },
+    {
+      "name": "Palau",
+      "capital": "Ngerulmud",
+      "currency": "United States dollar",
+      "iso": "PW",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Palestine",
+      "capital": "Ramallah",
+      "currency": "Egyptian pound",
+      "iso": "PS",
+      "continent": "Asia"
+    },
+    {
+      "name": "Panama",
+      "capital": "Panama City",
+      "currency": "Panamanian balboa",
+      "iso": "PA",
+      "continent": "Americas"
+    },
+    {
+      "name": "Papua New Guinea",
+      "capital": "Port Moresby",
+      "currency": "Papua New Guinean kina",
+      "iso": "PG",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Paraguay",
+      "capital": "Asunción",
+      "currency": "Paraguayan guaraní",
+      "iso": "PY",
+      "continent": "Americas"
+    },
+    {
+      "name": "Peru",
+      "capital": "Lima",
+      "currency": "Peruvian sol",
+      "iso": "PE",
+      "continent": "Americas"
+    },
+    {
+      "name": "Philippines",
+      "capital": "Manila",
+      "currency": "Philippine peso",
+      "iso": "PH",
+      "continent": "Asia"
+    },
+    {
+      "name": "Pitcairn Islands",
+      "capital": "Adamstown",
+      "currency": "New Zealand dollar",
+      "iso": "PN",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Poland",
+      "capital": "Warsaw",
+      "currency": "Polish złoty",
+      "iso": "PL",
+      "continent": "Europe"
+    },
+    {
+      "name": "Portugal",
+      "capital": "Lisbon",
+      "currency": "Euro",
+      "iso": "PT",
+      "continent": "Europe"
+    },
+    {
+      "name": "Puerto Rico",
+      "capital": "San Juan",
+      "currency": "United States dollar",
+      "iso": "PR",
+      "continent": "Americas"
+    },
+    {
+      "name": "Qatar",
+      "capital": "Doha",
+      "currency": "Qatari riyal",
+      "iso": "QA",
+      "continent": "Asia"
+    },
+    {
+      "name": "Romania",
+      "capital": "Bucharest",
+      "currency": "Romanian leu",
+      "iso": "RO",
+      "continent": "Europe"
+    },
+    {
+      "name": "Russia",
+      "capital": "Moscow",
+      "currency": "Russian ruble",
+      "iso": "RU",
+      "continent": "Europe"
+    },
+    {
+      "name": "Rwanda",
+      "capital": "Kigali",
+      "currency": "Rwandan franc",
+      "iso": "RW",
+      "continent": "Africa"
+    },
+    {
+      "name": "Réunion",
+      "capital": "Saint-Denis",
+      "currency": "Euro",
+      "iso": "RE",
+      "continent": "Africa"
+    },
+    {
+      "name": "Saint Barthélemy",
+      "capital": "Gustavia",
+      "currency": "Euro",
+      "iso": "BL",
+      "continent": "Americas"
+    },
+    {
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "capital": "Jamestown",
+      "currency": "Pound sterling",
+      "iso": "SH",
+      "continent": "Africa"
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "capital": "Basseterre",
+      "currency": "Eastern Caribbean dollar",
+      "iso": "KN",
+      "continent": "Americas"
+    },
+    {
+      "name": "Saint Lucia",
+      "capital": "Castries",
+      "currency": "Eastern Caribbean dollar",
+      "iso": "LC",
+      "continent": "Americas"
+    },
+    {
+      "name": "Saint Martin",
+      "capital": "Marigot",
+      "currency": "Euro",
+      "iso": "MF",
+      "continent": "Americas"
+    },
+    {
+      "name": "Saint Pierre and Miquelon",
+      "capital": "Saint-Pierre",
+      "currency": "Euro",
+      "iso": "PM",
+      "continent": "Americas"
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "capital": "Kingstown",
+      "currency": "Eastern Caribbean dollar",
+      "iso": "VC",
+      "continent": "Americas"
+    },
+    {
+      "name": "Samoa",
+      "capital": "Apia",
+      "currency": "Samoan tālā",
+      "iso": "WS",
+      "continent": "Oceania"
+    },
+    {
+      "name": "San Marino",
+      "capital": "City of San Marino",
+      "currency": "Euro",
+      "iso": "SM",
+      "continent": "Europe"
+    },
+    {
+      "name": "Saudi Arabia",
+      "capital": "Riyadh",
+      "currency": "Saudi riyal",
+      "iso": "SA",
+      "continent": "Asia"
+    },
+    {
+      "name": "Senegal",
+      "capital": "Dakar",
+      "currency": "West African CFA franc",
+      "iso": "SN",
+      "continent": "Africa"
+    },
+    {
+      "name": "Serbia",
+      "capital": "Belgrade",
+      "currency": "Serbian dinar",
+      "iso": "RS",
+      "continent": "Europe"
+    },
+    {
+      "name": "Seychelles",
+      "capital": "Victoria",
+      "currency": "Seychellois rupee",
+      "iso": "SC",
+      "continent": "Africa"
+    },
+    {
+      "name": "Sierra Leone",
+      "capital": "Freetown",
+      "currency": "Sierra Leonean leone",
+      "iso": "SL",
+      "continent": "Africa"
+    },
+    {
+      "name": "Singapore",
+      "capital": "Singapore",
+      "currency": "Singapore dollar",
+      "iso": "SG",
+      "continent": "Asia"
+    },
+    {
+      "name": "Sint Maarten",
+      "capital": "Philipsburg",
+      "currency": "Netherlands Antillean guilder",
+      "iso": "SX",
+      "continent": "Americas"
+    },
+    {
+      "name": "Slovakia",
+      "capital": "Bratislava",
+      "currency": "Euro",
+      "iso": "SK",
+      "continent": "Europe"
+    },
+    {
+      "name": "Slovenia",
+      "capital": "Ljubljana",
+      "currency": "Euro",
+      "iso": "SI",
+      "continent": "Europe"
+    },
+    {
+      "name": "Solomon Islands",
+      "capital": "Honiara",
+      "currency": "Solomon Islands dollar",
+      "iso": "SB",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Somalia",
+      "capital": "Mogadishu",
+      "currency": "Somali shilling",
+      "iso": "SO",
+      "continent": "Africa"
+    },
+    {
+      "name": "South Africa",
+      "capital": "Pretoria",
+      "currency": "South African rand",
+      "iso": "ZA",
+      "continent": "Africa"
+    },
+    {
+      "name": "South Georgia",
+      "capital": "King Edward Point",
+      "currency": "Saint Helena pound",
+      "iso": "GS",
+      "continent": "Antarctic"
+    },
+    {
+      "name": "South Korea",
+      "capital": "Seoul",
+      "currency": "South Korean won",
+      "iso": "KR",
+      "continent": "Asia"
+    },
+    {
+      "name": "South Sudan",
+      "capital": "Juba",
+      "currency": "South Sudanese pound",
+      "iso": "SS",
+      "continent": "Africa"
+    },
+    {
+      "name": "Spain",
+      "capital": "Madrid",
+      "currency": "Euro",
+      "iso": "ES",
+      "continent": "Europe"
+    },
+    {
+      "name": "Sri Lanka",
+      "capital": "Colombo",
+      "currency": "Sri Lankan rupee",
+      "iso": "LK",
+      "continent": "Asia"
+    },
+    {
+      "name": "Sudan",
+      "capital": "Khartoum",
+      "currency": "Sudanese pound",
+      "iso": "SD",
+      "continent": "Africa"
+    },
+    {
+      "name": "Suriname",
+      "capital": "Paramaribo",
+      "currency": "Surinamese dollar",
+      "iso": "SR",
+      "continent": "Americas"
+    },
+    {
+      "name": "Svalbard and Jan Mayen",
+      "capital": "Longyearbyen",
+      "currency": "krone",
+      "iso": "SJ",
+      "continent": "Europe"
+    },
+    {
+      "name": "Sweden",
+      "capital": "Stockholm",
+      "currency": "Swedish krona",
+      "iso": "SE",
+      "continent": "Europe"
+    },
+    {
+      "name": "Switzerland",
+      "capital": "Bern",
+      "currency": "Swiss franc",
+      "iso": "CH",
+      "continent": "Europe"
+    },
+    {
+      "name": "Syria",
+      "capital": "Damascus",
+      "currency": "Syrian pound",
+      "iso": "SY",
+      "continent": "Asia"
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "capital": "São Tomé",
+      "currency": "São Tomé and Príncipe dobra",
+      "iso": "ST",
+      "continent": "Africa"
+    },
+    {
+      "name": "Taiwan",
+      "capital": "Taipei",
+      "currency": "New Taiwan dollar",
+      "iso": "TW",
+      "continent": "Asia"
+    },
+    {
+      "name": "Tajikistan",
+      "capital": "Dushanbe",
+      "currency": "Tajikistani somoni",
+      "iso": "TJ",
+      "continent": "Asia"
+    },
+    {
+      "name": "Tanzania",
+      "capital": "Dodoma",
+      "currency": "Tanzanian shilling",
+      "iso": "TZ",
+      "continent": "Africa"
+    },
+    {
+      "name": "Thailand",
+      "capital": "Bangkok",
+      "currency": "Thai baht",
+      "iso": "TH",
+      "continent": "Asia"
+    },
+    {
+      "name": "Timor-Leste",
+      "capital": "Dili",
+      "currency": "United States dollar",
+      "iso": "TL",
+      "continent": "Asia"
+    },
+    {
+      "name": "Togo",
+      "capital": "Lomé",
+      "currency": "West African CFA franc",
+      "iso": "TG",
+      "continent": "Africa"
+    },
+    {
+      "name": "Tokelau",
+      "capital": "Fakaofo",
+      "currency": "New Zealand dollar",
+      "iso": "TK",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Tonga",
+      "capital": "Nuku'alofa",
+      "currency": "Tongan paʻanga",
+      "iso": "TO",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "capital": "Port of Spain",
+      "currency": "Trinidad and Tobago dollar",
+      "iso": "TT",
+      "continent": "Americas"
+    },
+    {
+      "name": "Tunisia",
+      "capital": "Tunis",
+      "currency": "Tunisian dinar",
+      "iso": "TN",
+      "continent": "Africa"
+    },
+    {
+      "name": "Turkmenistan",
+      "capital": "Ashgabat",
+      "currency": "Turkmenistan manat",
+      "iso": "TM",
+      "continent": "Asia"
+    },
+    {
+      "name": "Turks and Caicos Islands",
+      "capital": "Cockburn Town",
+      "currency": "United States dollar",
+      "iso": "TC",
+      "continent": "Americas"
+    },
+    {
+      "name": "Tuvalu",
+      "capital": "Funafuti",
+      "currency": "Australian dollar",
+      "iso": "TV",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Türkiye",
+      "capital": "Ankara",
+      "currency": "Turkish lira",
+      "iso": "TR",
+      "continent": "Asia"
+    },
+    {
+      "name": "Uganda",
+      "capital": "Kampala",
+      "currency": "Ugandan shilling",
+      "iso": "UG",
+      "continent": "Africa"
+    },
+    {
+      "name": "Ukraine",
+      "capital": "Kyiv",
+      "currency": "Ukrainian hryvnia",
+      "iso": "UA",
+      "continent": "Europe"
+    },
+    {
+      "name": "United Arab Emirates",
+      "capital": "Abu Dhabi",
+      "currency": "United Arab Emirates dirham",
+      "iso": "AE",
+      "continent": "Asia"
+    },
+    {
+      "name": "United Kingdom",
+      "capital": "London",
+      "currency": "British pound",
+      "iso": "GB",
+      "continent": "Europe"
+    },
+    {
+      "name": "United States",
+      "capital": "Washington D.C.",
+      "currency": "United States dollar",
+      "iso": "US",
+      "continent": "Americas"
+    },
+    {
+      "name": "United States Virgin Islands",
+      "capital": "Charlotte Amalie",
+      "currency": "United States dollar",
+      "iso": "VI",
+      "continent": "Americas"
+    },
+    {
+      "name": "Uruguay",
+      "capital": "Montevideo",
+      "currency": "Uruguayan peso",
+      "iso": "UY",
+      "continent": "Americas"
+    },
+    {
+      "name": "Uzbekistan",
+      "capital": "Tashkent",
+      "currency": "Uzbekistani soʻm",
+      "iso": "UZ",
+      "continent": "Asia"
+    },
+    {
+      "name": "Vanuatu",
+      "capital": "Port Vila",
+      "currency": "Vanuatu vatu",
+      "iso": "VU",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Vatican City",
+      "capital": "Vatican City",
+      "currency": "Euro",
+      "iso": "VA",
+      "continent": "Europe"
+    },
+    {
+      "name": "Venezuela",
+      "capital": "Caracas",
+      "currency": "Venezuelan bolívar soberano",
+      "iso": "VE",
+      "continent": "Americas"
+    },
+    {
+      "name": "Vietnam",
+      "capital": "Hanoi",
+      "currency": "Vietnamese đồng",
+      "iso": "VN",
+      "continent": "Asia"
+    },
+    {
+      "name": "Wallis and Futuna",
+      "capital": "Mata-Utu",
+      "currency": "CFP franc",
+      "iso": "WF",
+      "continent": "Oceania"
+    },
+    {
+      "name": "Western Sahara",
+      "capital": "El Aaiún",
+      "currency": "Algerian dinar",
+      "iso": "EH",
+      "continent": "Africa"
+    },
+    {
+      "name": "Yemen",
+      "capital": "Sana'a",
+      "currency": "Yemeni rial",
+      "iso": "YE",
+      "continent": "Asia"
+    },
+    {
+      "name": "Zambia",
+      "capital": "Lusaka",
+      "currency": "Zambian kwacha",
+      "iso": "ZM",
+      "continent": "Africa"
+    },
+    {
+      "name": "Zimbabwe",
+      "capital": "Harare",
+      "currency": "Botswana pula",
+      "iso": "ZW",
+      "continent": "Africa"
+    },
+    {
+      "name": "Åland Islands",
+      "capital": "Mariehamn",
+      "currency": "Euro",
+      "iso": "AX",
+      "continent": "Europe"
+    }
+  ],
+  "states": {
+    "United States": [
+      {
+        "name": "Alabama",
+        "capital": "Montgomery"
+      },
+      {
+        "name": "Alaska",
+        "capital": "Juneau"
+      },
+      {
+        "name": "Arizona",
+        "capital": "Phoenix"
+      },
+      {
+        "name": "Arkansas",
+        "capital": "Little Rock"
+      },
+      {
+        "name": "California",
+        "capital": "Sacramento"
+      },
+      {
+        "name": "Colorado",
+        "capital": "Denver"
+      },
+      {
+        "name": "Connecticut",
+        "capital": "Hartford"
+      },
+      {
+        "name": "Delaware",
+        "capital": "Dover"
+      },
+      {
+        "name": "Florida",
+        "capital": "Tallahassee"
+      },
+      {
+        "name": "Georgia",
+        "capital": "Atlanta"
+      },
+      {
+        "name": "Hawaii",
+        "capital": "Honolulu"
+      },
+      {
+        "name": "Idaho",
+        "capital": "Boise"
+      },
+      {
+        "name": "Illinois",
+        "capital": "Springfield"
+      },
+      {
+        "name": "Indiana",
+        "capital": "Indianapolis"
+      },
+      {
+        "name": "Iowa",
+        "capital": "Des Moines"
+      },
+      {
+        "name": "Kansas",
+        "capital": "Topeka"
+      },
+      {
+        "name": "Kentucky",
+        "capital": "Frankfort"
+      },
+      {
+        "name": "Louisiana",
+        "capital": "Baton Rouge"
+      },
+      {
+        "name": "Maine",
+        "capital": "Augusta"
+      },
+      {
+        "name": "Maryland",
+        "capital": "Annapolis"
+      },
+      {
+        "name": "Massachusetts",
+        "capital": "Boston"
+      },
+      {
+        "name": "Michigan",
+        "capital": "Lansing"
+      },
+      {
+        "name": "Minnesota",
+        "capital": "Saint Paul"
+      },
+      {
+        "name": "Mississippi",
+        "capital": "Jackson"
+      },
+      {
+        "name": "Missouri",
+        "capital": "Jefferson City"
+      },
+      {
+        "name": "Montana",
+        "capital": "Helena"
+      },
+      {
+        "name": "Nebraska",
+        "capital": "Lincoln"
+      },
+      {
+        "name": "Nevada",
+        "capital": "Carson City"
+      },
+      {
+        "name": "New Hampshire",
+        "capital": "Concord"
+      },
+      {
+        "name": "New Jersey",
+        "capital": "Trenton"
+      },
+      {
+        "name": "New Mexico",
+        "capital": "Santa Fe"
+      },
+      {
+        "name": "New York",
+        "capital": "Albany"
+      },
+      {
+        "name": "North Carolina",
+        "capital": "Raleigh"
+      },
+      {
+        "name": "North Dakota",
+        "capital": "Bismarck"
+      },
+      {
+        "name": "Ohio",
+        "capital": "Columbus"
+      },
+      {
+        "name": "Oklahoma",
+        "capital": "Oklahoma City"
+      },
+      {
+        "name": "Oregon",
+        "capital": "Salem"
+      },
+      {
+        "name": "Pennsylvania",
+        "capital": "Harrisburg"
+      },
+      {
+        "name": "Rhode Island",
+        "capital": "Providence"
+      },
+      {
+        "name": "South Carolina",
+        "capital": "Columbia"
+      },
+      {
+        "name": "South Dakota",
+        "capital": "Pierre"
+      },
+      {
+        "name": "Tennessee",
+        "capital": "Nashville"
+      },
+      {
+        "name": "Texas",
+        "capital": "Austin"
+      },
+      {
+        "name": "Utah",
+        "capital": "Salt Lake City"
+      },
+      {
+        "name": "Vermont",
+        "capital": "Montpelier"
+      },
+      {
+        "name": "Virginia",
+        "capital": "Richmond"
+      },
+      {
+        "name": "Washington",
+        "capital": "Olympia"
+      },
+      {
+        "name": "West Virginia",
+        "capital": "Charleston"
+      },
+      {
+        "name": "Wisconsin",
+        "capital": "Madison"
+      },
+      {
+        "name": "Wyoming",
+        "capital": "Cheyenne"
+      }
+    ],
+    "India": [
+      {
+        "name": "Andhra Pradesh",
+        "capital": "Amaravati"
+      },
+      {
+        "name": "Arunachal Pradesh",
+        "capital": "Itanagar"
+      },
+      {
+        "name": "Assam",
+        "capital": "Dispur"
+      },
+      {
+        "name": "Bihar",
+        "capital": "Patna"
+      },
+      {
+        "name": "Chhattisgarh",
+        "capital": "Raipur"
+      },
+      {
+        "name": "Goa",
+        "capital": "Panaji"
+      },
+      {
+        "name": "Gujarat",
+        "capital": "Gandhinagar"
+      },
+      {
+        "name": "Haryana",
+        "capital": "Chandigarh"
+      },
+      {
+        "name": "Himachal Pradesh",
+        "capital": "Shimla"
+      },
+      {
+        "name": "Jharkhand",
+        "capital": "Ranchi"
+      },
+      {
+        "name": "Karnataka",
+        "capital": "Bengaluru"
+      },
+      {
+        "name": "Kerala",
+        "capital": "Thiruvananthapuram"
+      },
+      {
+        "name": "Madhya Pradesh",
+        "capital": "Bhopal"
+      },
+      {
+        "name": "Maharashtra",
+        "capital": "Mumbai"
+      },
+      {
+        "name": "Manipur",
+        "capital": "Imphal"
+      },
+      {
+        "name": "Meghalaya",
+        "capital": "Shillong"
+      },
+      {
+        "name": "Mizoram",
+        "capital": "Aizawl"
+      },
+      {
+        "name": "Nagaland",
+        "capital": "Kohima"
+      },
+      {
+        "name": "Odisha",
+        "capital": "Bhubaneswar"
+      },
+      {
+        "name": "Punjab",
+        "capital": "Chandigarh"
+      },
+      {
+        "name": "Rajasthan",
+        "capital": "Jaipur"
+      },
+      {
+        "name": "Sikkim",
+        "capital": "Gangtok"
+      },
+      {
+        "name": "Tamil Nadu",
+        "capital": "Chennai"
+      },
+      {
+        "name": "Telangana",
+        "capital": "Hyderabad"
+      },
+      {
+        "name": "Tripura",
+        "capital": "Agartala"
+      },
+      {
+        "name": "Uttar Pradesh",
+        "capital": "Lucknow"
+      },
+      {
+        "name": "Uttarakhand",
+        "capital": "Dehradun"
+      },
+      {
+        "name": "West Bengal",
+        "capital": "Kolkata"
+      },
+      {
+        "name": "Andaman and Nicobar Islands",
+        "capital": "Port Blair"
+      },
+      {
+        "name": "Chandigarh",
+        "capital": "Chandigarh"
+      },
+      {
+        "name": "Dadra and Nagar Haveli and Daman and Diu",
+        "capital": "Daman"
+      },
+      {
+        "name": "Delhi",
+        "capital": "New Delhi"
+      },
+      {
+        "name": "Jammu and Kashmir",
+        "capital": "Srinagar"
+      },
+      {
+        "name": "Ladakh",
+        "capital": "Leh"
+      },
+      {
+        "name": "Lakshadweep",
+        "capital": "Kavaratti"
+      },
+      {
+        "name": "Puducherry",
+        "capital": "Puducherry"
+      }
+    ]
+  }
+}

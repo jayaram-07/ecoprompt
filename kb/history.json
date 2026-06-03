@@ -1,0 +1,338 @@
+[
+  {
+    "id": "french_revolution",
+    "title": "French Revolution",
+    "keywords": ["french revolution", "1789 revolution france"],
+    "year": "1789–1799",
+    "description": "The French Revolution was a period of radical political and social upheaval in France beginning in 1789. It was driven by widespread dissatisfaction with the monarchy, economic crisis, and Enlightenment ideas promoting equality and rights. The revolution led to the overthrow of King Louis XVI, the abolition of the monarchy, and the establishment of a republic. It also resulted in the Reign of Terror and eventually paved the way for the rise of Napoleon Bonaparte. The revolution profoundly influenced modern concepts of democracy, citizenship, and human rights."
+  },
+  {
+    "id": "american_revolution",
+    "title": "American Revolution",
+    "keywords": ["american revolution", "us independence war"],
+    "year": "1775–1783",
+    "description": "The American Revolution was a conflict between the thirteen American colonies and Great Britain that resulted in American independence. It began over disputes regarding taxation and representation in the British Parliament. The colonies declared independence in 1776 through the Declaration of Independence. With support from France, the colonies defeated Britain, leading to the Treaty of Paris in 1783. The revolution established the United States as a sovereign nation and influenced democratic movements worldwide."
+  },
+  {
+    "id": "world_war_1",
+    "title": "World War I",
+    "keywords": ["ww1", "world war 1", "first world war"],
+    "year": "1914–1918",
+    "description": "World War I was a global conflict primarily centered in Europe, triggered by the assassination of Archduke Franz Ferdinand of Austria in 1914. It involved major world powers divided into the Allied and Central Powers. The war introduced large-scale trench warfare and new military technologies. It resulted in millions of casualties and the collapse of several empires, including the Ottoman and Austro-Hungarian empires. The Treaty of Versailles ended the war but contributed to political instability that later led to World War II."
+  },
+  {
+    "id": "world_war_2",
+    "title": "World War II",
+    "keywords": ["ww2", "world war 2", "second world war"],
+    "year": "1939–1945",
+    "description": "World War II was the largest and deadliest global conflict in history, involving most nations of the world. It began in 1939 with Germany's invasion of Poland under Adolf Hitler's leadership. The war was marked by widespread devastation, the Holocaust, and the use of atomic bombs on Hiroshima and Nagasaki. The Allied Powers ultimately defeated the Axis Powers in 1945. The war reshaped global politics and led to the formation of the United Nations."
+  },
+  {
+    "id": "industrial_revolution",
+    "title": "Industrial Revolution",
+    "keywords": ["industrial revolution"],
+    "year": "1760–1840",
+    "description": "The Industrial Revolution was a period of rapid industrialization that began in Britain in the late 18th century. It involved the transition from hand production methods to machines and factory-based manufacturing. Innovations such as the steam engine transformed transportation and industry. The revolution significantly increased production but also led to urbanization and challenging labor conditions. It laid the foundation for modern industrial economies."
+  },
+  {
+    "id": "russian_revolution",
+    "title": "Russian Revolution",
+    "keywords": ["russian revolution", "1917 revolution russia"],
+    "year": "1917",
+    "description": "The Russian Revolution was a series of political events in 1917 that led to the overthrow of Tsar Nicholas II and the rise of the Bolsheviks under Vladimir Lenin. Economic hardship, military failures in World War I, and political unrest fueled the revolution. It resulted in the establishment of a socialist state and eventually the formation of the Soviet Union. The revolution significantly influenced global politics and the spread of communism in the 20th century."
+  },
+  {
+    "id": "fall_of_berlin_wall",
+    "title": "Fall of the Berlin Wall",
+    "keywords": ["berlin wall fall", "1989 berlin wall"],
+    "year": "1989",
+    "description": "The Berlin Wall, built in 1961, symbolized the division between East and West Germany during the Cold War. In 1989, growing political reforms and public protests led to its sudden opening. The fall of the Berlin Wall marked a turning point in European history and symbolized the decline of Soviet influence in Eastern Europe. It ultimately led to German reunification in 1990."
+  },
+  {
+    "id": "moon_landing",
+    "title": "Apollo 11 Moon Landing",
+    "keywords": ["moon landing", "apollo 11"],
+    "year": "1969",
+    "description": "The Apollo 11 mission successfully landed the first humans on the Moon on July 20, 1969. Astronauts Neil Armstrong and Buzz Aldrin walked on the lunar surface while Michael Collins orbited above. Armstrong famously stated, 'That's one small step for man, one giant leap for mankind.' The mission represented a major achievement in the space race between the United States and the Soviet Union."
+  },
+  {
+    "id": "independence_india",
+    "title": "Indian Independence",
+    "keywords": ["india independence", "1947 india independence"],
+    "year": "1947",
+    "description": "India gained independence from British colonial rule on August 15, 1947, after decades of nationalist movements. Leaders such as Mahatma Gandhi advocated nonviolent resistance, while others pushed for political negotiations. Independence was accompanied by the partition of British India into India and Pakistan, leading to widespread migration and violence. The event marked the end of nearly two centuries of British rule in the region."
+  },
+  {
+    "id": "great_depression",
+    "title": "Great Depression",
+    "keywords": ["great depression", "1929 crash"],
+    "year": "1929–1939",
+    "description": "The Great Depression was a severe global economic downturn that began with the U.S. stock market crash in 1929. It led to massive unemployment, poverty, and economic instability worldwide. Governments responded with reforms such as the New Deal in the United States. The crisis reshaped economic policy and regulation in many countries."
+  },
+  {
+    "id": "cold_war",
+    "title": "Cold War",
+    "keywords": ["cold war"],
+    "year": "1947–1991",
+    "description": "The Cold War was a prolonged period of geopolitical tension between the United States and the Soviet Union after World War II. It was characterized by ideological conflict between capitalism and communism. Although there was no direct large-scale war between the two superpowers, proxy wars and nuclear arms competition defined the era. The Cold War ended with the dissolution of the Soviet Union in 1991."
+  },
+  {
+    "id": "renaissance",
+    "title": "Renaissance",
+    "keywords": ["renaissance"],
+    "year": "14th–17th century",
+    "description": "The Renaissance was a cultural and intellectual movement that began in Italy and spread across Europe. It emphasized the revival of classical learning, art, and humanism. Figures such as Leonardo da Vinci and Michelangelo contributed significantly to art and science. The Renaissance helped shape modern Western thought and culture."
+  },
+  {
+    "id": "fall_of_rome",
+    "title": "Fall of the Western Roman Empire",
+    "keywords": ["fall of rome", "476 ad rome"],
+    "year": "476 AD",
+    "description": "The fall of the Western Roman Empire occurred in 476 AD when the last Roman emperor was deposed. Internal political instability, economic decline, and invasions by Germanic tribes contributed to its collapse. The fall marked the end of ancient Roman rule in Western Europe and the beginning of the Middle Ages."
+  },
+  {
+    "id": "signing_magna_carta",
+    "title": "Signing of the Magna Carta",
+    "keywords": ["magna carta", "1215 magna carta"],
+    "year": "1215",
+    "description": "The Magna Carta was signed in 1215 by King John of England under pressure from rebellious barons. It limited the powers of the monarchy and established principles of due process and the rule of law. The document became a foundational influence on constitutional governance."
+  },
+  {
+    "id": "discovery_america",
+    "title": "Columbus Reaches the Americas",
+    "keywords": ["columbus 1492", "discovery of america"],
+    "year": "1492",
+    "description": "In 1492, Christopher Columbus reached the Americas while attempting to find a westward route to Asia. His voyage initiated sustained European exploration and colonization of the Americas. The event significantly altered global trade, culture, and demographics."
+  },
+{
+  "id": "indus_valley_civilization",
+  "title": "Indus Valley Civilization",
+  "keywords": ["indus valley civilization", "harappan civilization"],
+  "year": "c. 2600–1900 BCE",
+  "description": "The Indus Valley Civilization was one of the world's earliest urban civilizations, located in present-day Pakistan and northwest India. It is known for well-planned cities such as Harappa and Mohenjo-Daro, advanced drainage systems, and standardized weights and measures. The civilization engaged in trade with Mesopotamia and developed a script that remains undeciphered. Its decline is still debated but may have involved climate changes and shifting river patterns."
+},
+{
+  "id": "mauryan_empire",
+  "title": "Mauryan Empire",
+  "keywords": ["mauryan empire", "ashoka maurya"],
+  "year": "322–185 BCE",
+  "description": "The Mauryan Empire was one of the largest empires in ancient India, founded by Chandragupta Maurya. Under Emperor Ashoka, the empire expanded significantly and later embraced Buddhism after the Kalinga War. Ashoka promoted moral governance and nonviolence through inscriptions known as edicts. The empire marked a period of political unity and economic prosperity."
+},
+{
+  "id": "gupta_empire",
+  "title": "Gupta Empire",
+  "keywords": ["gupta empire", "golden age of india"],
+  "year": "c. 320–550 CE",
+  "description": "The Gupta Empire is often referred to as the Golden Age of India due to advances in science, mathematics, literature, and art. Scholars such as Aryabhata made significant contributions to astronomy and mathematics during this period. The empire promoted Hindu culture while supporting religious tolerance. It declined due to internal conflicts and invasions."
+},
+{
+  "id": "delhi_sultanate",
+  "title": "Delhi Sultanate",
+  "keywords": ["delhi sultanate"],
+  "year": "1206–1526",
+  "description": "The Delhi Sultanate was a series of Muslim-ruled dynasties that governed large parts of India from Delhi. It introduced new administrative systems and cultural influences. The period saw architectural achievements such as the Qutub Minar. The Sultanate ended with the establishment of the Mughal Empire."
+},
+{
+  "id": "mughal_empire",
+  "title": "Mughal Empire",
+  "keywords": ["mughal empire", "akbar", "shah jahan"],
+  "year": "1526–1857",
+  "description": "The Mughal Empire was founded by Babur after the First Battle of Panipat. Under rulers such as Akbar, Jahangir, and Shah Jahan, the empire expanded and flourished culturally and economically. Architectural achievements include the Taj Mahal. The empire gradually weakened due to internal conflicts and colonial pressures."
+},
+{
+  "id": "battle_of_plassey",
+  "title": "Battle of Plassey",
+  "keywords": ["battle of plassey", "1757 plassey"],
+  "year": "1757",
+  "description": "The Battle of Plassey marked the beginning of British political control in India. The British East India Company defeated Nawab Siraj-ud-Daulah with support from local allies. This victory allowed the Company to expand its influence in Bengal and beyond."
+},
+{
+  "id": "revolt_1857",
+  "title": "Revolt of 1857",
+  "keywords": ["revolt of 1857", "sepoy mutiny", "first war of independence"],
+  "year": "1857",
+  "description": "The Revolt of 1857 was a major uprising against British rule. It began among Indian soldiers in the British army and spread across northern India. Although it failed, it led to the dissolution of the East India Company and direct British Crown rule over India."
+},
+{
+  "id": "non_cooperation_movement",
+  "title": "Non-Cooperation Movement",
+  "keywords": ["non cooperation movement"],
+  "year": "1920–1922",
+  "description": "Led by Mahatma Gandhi, the Non-Cooperation Movement encouraged Indians to boycott British institutions and goods. It marked the beginning of mass participation in the freedom struggle. The movement was suspended after incidents of violence."
+},
+{
+  "id": "civil_disobedience_movement",
+  "title": "Civil Disobedience Movement",
+  "keywords": ["civil disobedience movement", "salt march"],
+  "year": "1930–1934",
+  "description": "The Civil Disobedience Movement was launched by Gandhi with the Salt March to protest British salt laws. It involved widespread refusal to obey colonial laws. The movement intensified demands for self-rule."
+},
+{
+  "id": "quit_india_movement",
+  "title": "Quit India Movement",
+  "keywords": ["quit india movement"],
+  "year": "1942",
+  "description": "The Quit India Movement was launched during World War II demanding an end to British rule. Leaders were arrested, but the movement intensified nationalist sentiment. It marked the final phase of India's struggle for independence."
+},
+{
+  "id": "constitution_india",
+  "title": "Adoption of the Indian Constitution",
+  "keywords": ["indian constitution adoption", "26 january 1950"],
+  "year": "1950",
+  "description": "The Constitution of India came into effect on January 26, 1950, making India a sovereign democratic republic. Drafted by the Constituent Assembly under Dr. B.R. Ambedkar, it established a parliamentary system and fundamental rights."
+},
+{
+  "id": "green_revolution_india",
+  "title": "Green Revolution in India",
+  "keywords": ["green revolution india"],
+  "year": "1960s",
+  "description": "The Green Revolution introduced high-yield crop varieties and modern agricultural techniques in India. It significantly increased food production and helped achieve food security."
+},
+{
+  "id": "india_pokhran_test",
+  "title": "Pokhran Nuclear Tests",
+  "keywords": ["pokhran nuclear test", "1998 nuclear test india"],
+  "year": "1974, 1998",
+  "description": "India conducted nuclear tests at Pokhran in 1974 and again in 1998. These tests declared India a nuclear-capable nation and significantly impacted regional geopolitics."
+},
+{
+  "id": "economic_liberalization_1991",
+  "title": "Economic Liberalization of India",
+  "keywords": ["1991 economic reforms india", "liberalization india"],
+  "year": "1991",
+  "description": "In 1991, India introduced economic reforms to reduce government control and open markets to foreign investment. These reforms transformed India into a more market-driven economy and accelerated growth."
+},
+{
+  "id": "kargil_war",
+  "title": "Kargil War",
+  "keywords": ["kargil war", "1999 kargil"],
+  "year": "1999",
+  "description": "The Kargil War was fought between India and Pakistan in the Kargil district of Jammu and Kashmir. Indian forces regained control of strategic positions after intense fighting. The conflict highlighted the importance of border security."
+},
+{
+  "id": "india_china_border_conflict",
+  "title": "India-China Border Conflict",
+  "keywords": ["india china border conflict", "2020 india china clash"],
+  "year": "2020",
+  "description": "In 2020, India and China experienced a significant border conflict in the Galwan Valley. The clash resulted in casualties on both sides and heightened tensions between the two nations. It underscored ongoing disputes over the Line of Actual Control (LAC) and the need for diplomatic resolution."
+},
+{
+  "id": "covid19_pandemic_india",
+  "title": "COVID-19 Pandemic in India",
+  "keywords": ["covid19 india", "coronavirus india"],
+  "year": "2020–2021",
+  "description": "The COVID-19 pandemic severely impacted India, leading to widespread illness and economic disruption. The country implemented lockdowns and ramped up healthcare infrastructure. Vaccination efforts were launched to control the spread of the virus."
+},
+{
+  "id": "india_2024_election",
+  "title": "India's 2024 General Election",
+  "keywords": ["india 2024 election", "general election india 2024"],
+  "year": "2024",
+  "description": "India's 2024 General Election is a significant political event where citizens will vote to elect members of the Lok Sabha. The election will shape the country's political landscape and determine the direction of governance for the next five years."
+},
+{
+  "id": "vedic_period",
+  "title": "Vedic Period",
+  "keywords": ["vedic period", "early vedic age", "later vedic age"],
+  "year": "c. 1500–500 BCE",
+  "description": "The Vedic Period followed the decline of the Indus Valley Civilization and is associated with the composition of the Vedas. Society during this period was organized into tribes and later developed structured kingdoms. Religious practices centered on rituals and hymns dedicated to natural forces. This era laid the foundations of Hindu philosophy and social organization."
+},
+{
+  "id": "kalinga_war",
+  "title": "Kalinga War",
+  "keywords": ["kalinga war", "ashoka kalinga"],
+  "year": "261 BCE",
+  "description": "The Kalinga War was fought between the Mauryan Empire under Ashoka and the state of Kalinga. The war resulted in massive casualties and suffering. Shocked by the destruction, Ashoka embraced Buddhism and adopted a policy of nonviolence. The war marked a turning point in Indian political and religious history."
+},
+{
+  "id": "chola_empire",
+  "title": "Chola Empire",
+  "keywords": ["chola empire", "rajaraja chola"],
+  "year": "c. 300 BCE–1279 CE",
+  "description": "The Chola Empire was a powerful South Indian dynasty known for maritime trade and naval dominance. It expanded influence across Southeast Asia and built grand temples such as the Brihadeeswarar Temple. The Cholas contributed significantly to Tamil culture and temple architecture."
+},
+{
+  "id": "vijayanagara_empire",
+  "title": "Vijayanagara Empire",
+  "keywords": ["vijayanagara empire", "krishnadevaraya"],
+  "year": "1336–1646",
+  "description": "The Vijayanagara Empire was a major South Indian kingdom established to resist northern invasions. It became a center of art, architecture, and commerce. Under rulers like Krishnadevaraya, the empire flourished culturally and militarily. It declined after the Battle of Talikota."
+},
+{
+  "id": "shivaji_maratha_empire",
+  "title": "Rise of the Maratha Empire",
+  "keywords": ["shivaji", "maratha empire"],
+  "year": "1674",
+  "description": "The Maratha Empire was founded by Shivaji Maharaj in western India. It challenged Mughal dominance and established a strong regional power. Shivaji implemented effective administrative and military systems. The Marathas later became a dominant force in 18th-century India."
+},
+{
+  "id": "battle_of_panipat_1761",
+  "title": "Third Battle of Panipat",
+  "keywords": ["third battle of panipat", "1761 panipat"],
+  "year": "1761",
+  "description": "The Third Battle of Panipat was fought between the Marathas and the Afghan ruler Ahmad Shah Abdali. It resulted in a major defeat for the Marathas and weakened their power in northern India. The battle significantly altered the political landscape of India."
+},
+{
+  "id": "formation_congress",
+  "title": "Formation of Indian National Congress",
+  "keywords": ["indian national congress formation", "1885 congress"],
+  "year": "1885",
+  "description": "The Indian National Congress was founded in 1885 to promote political dialogue between Indians and the British government. It gradually became the leading organization in India's freedom movement. Leaders such as Gandhi and Nehru later shaped its direction."
+},
+{
+  "id": "jallianwala_bagh",
+  "title": "Jallianwala Bagh Massacre",
+  "keywords": ["jallianwala bagh", "1919 massacre"],
+  "year": "1919",
+  "description": "The Jallianwala Bagh Massacre occurred when British troops opened fire on peaceful protesters in Amritsar. Hundreds of civilians were killed. The event intensified anti-British sentiment and strengthened the Indian independence movement."
+},
+{
+  "id": "partition_of_india",
+  "title": "Partition of India",
+  "keywords": ["partition of india", "1947 partition"],
+  "year": "1947",
+  "description": "The Partition of India divided British India into two independent dominions: India and Pakistan. It led to one of the largest mass migrations in history and significant communal violence. The partition reshaped South Asian geopolitics."
+},
+{
+  "id": "states_reorganisation_act",
+  "title": "States Reorganisation Act",
+  "keywords": ["states reorganisation act", "1956 india states"],
+  "year": "1956",
+  "description": "The States Reorganisation Act reorganized Indian states based primarily on linguistic lines. It significantly reshaped the political boundaries of India and strengthened federal structure."
+},
+{
+  "id": "india_china_war",
+  "title": "Sino-Indian War",
+  "keywords": ["1962 india china war", "sino indian war"],
+  "year": "1962",
+  "description": "The Sino-Indian War was fought between India and China over border disputes in the Himalayan region. The conflict resulted in a Chinese victory and highlighted weaknesses in India's defense preparedness."
+},
+{
+  "id": "india_pak_war_1971",
+  "title": "Indo-Pak War of 1971",
+  "keywords": ["1971 india pakistan war", "bangladesh liberation war"],
+  "year": "1971",
+  "description": "The Indo-Pak War of 1971 led to the creation of Bangladesh. India supported the independence movement in East Pakistan. The war ended with Pakistan's surrender and significantly altered South Asian geopolitics."
+},
+{
+  "id": "emergency_1975",
+  "title": "The Emergency in India",
+  "keywords": ["emergency 1975 india"],
+  "year": "1975–1977",
+  "description": "The Emergency was declared by Prime Minister Indira Gandhi, suspending civil liberties and postponing elections. Political opposition leaders were arrested. The period remains controversial in Indian political history."
+},
+{
+  "id": "operation_blue_star",
+  "title": "Operation Blue Star",
+  "keywords": ["operation blue star", "1984 golden temple"],
+  "year": "1984",
+  "description": "Operation Blue Star was a military operation conducted to remove militants from the Golden Temple in Amritsar. The event led to significant political repercussions, including the assassination of Prime Minister Indira Gandhi."
+},
+{
+  "id": "chandrayaan_3",
+  "title": "Chandrayaan-3 Mission",
+  "keywords": ["chandrayaan 3", "india moon mission 2023"],
+  "year": "2023",
+  "description": "Chandrayaan-3 was India's lunar mission that successfully achieved a soft landing near the Moon's south pole. It marked India as the fourth country to land on the Moon and the first to land near the south pole region."
+}
+]

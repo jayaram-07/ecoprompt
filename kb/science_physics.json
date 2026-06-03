@@ -1,0 +1,303 @@
+[
+  {
+    "id": "newtons_first_law",
+    "title": "Newton's First Law",
+    "category": "Physics",
+    "content": "Newton's First Law states that an object remains at rest or in uniform motion unless acted upon by a net external force. This principle is also called the Law of Inertia. Inertia is the resistance of an object to changes in its motion and depends on mass."
+  },
+  {
+    "id": "newtons_second_law",
+    "title": "Newton's Second Law",
+    "category": "Physics",
+    "content": "Newton's Second Law states that the acceleration of an object depends on the net force applied and its mass. The formula is F = m × a, where F is force, m is mass, and a is acceleration. A larger force produces greater acceleration, while a larger mass resists acceleration."
+  },
+  {
+    "id": "newtons_third_law",
+    "title": "Newton's Third Law",
+    "category": "Physics",
+    "content": "Newton's Third Law states that for every action, there is an equal and opposite reaction. When one object exerts a force on another, the second object simultaneously exerts an equal force in the opposite direction."
+  },
+  {
+    "id": "kinetic_energy",
+    "title": "Kinetic Energy",
+    "category": "Physics",
+    "content": "Kinetic energy is the energy an object possesses due to its motion. The formula is KE = 1/2 m v^2, where m is mass and v is velocity. Because velocity is squared, small increases in speed greatly increase kinetic energy."
+  },
+  {
+    "id": "potential_energy",
+    "title": "Potential Energy",
+    "category": "Physics",
+    "content": "Gravitational potential energy is the energy stored due to position in a gravitational field. The formula is PE = m g h, where m is mass, g is gravitational acceleration, and h is height."
+  },
+  {
+    "id": "momentum",
+    "title": "Momentum",
+    "category": "Physics",
+    "content": "Momentum is the quantity of motion an object has. The formula is p = m v, where m is mass and v is velocity. Momentum is conserved in isolated systems."
+  },
+  {
+    "id": "work",
+    "title": "Work",
+    "category": "Physics",
+    "content": "Work is done when a force causes displacement. The formula is W = F d cos(θ), where F is force, d is displacement, and θ is the angle between force and displacement."
+  },
+  {
+    "id": "power",
+    "title": "Power",
+    "category": "Physics",
+    "content": "Power is the rate at which work is done. The formula is P = W / t, where W is work and t is time. It can also be written as P = F v when force and velocity are aligned."
+  },
+  {
+    "id": "pressure",
+    "title": "Pressure",
+    "category": "Physics",
+    "content": "Pressure is force applied per unit area. The formula is P = F / A, where F is force and A is area. Increasing force increases pressure, while increasing area reduces pressure."
+  },
+  {
+    "id": "density",
+    "title": "Density",
+    "category": "Physics",
+    "content": "Density is mass per unit volume. The formula is ρ = m / V, where m is mass and V is volume. Density determines whether an object floats or sinks in a fluid."
+  },
+  {
+    "id": "acceleration",
+    "title": "Acceleration",
+    "category": "Physics",
+    "content": "Acceleration is the rate of change of velocity. The formula is a = (v - u) / t, where u is initial velocity, v is final velocity, and t is time."
+  },
+  {
+    "id": "velocity",
+    "title": "Velocity",
+    "category": "Physics",
+    "content": "Velocity is the rate of change of displacement. The formula is v = d / t, where d is displacement and t is time. Unlike speed, velocity includes direction."
+  },
+  {
+    "id": "gravitational_force",
+    "title": "Gravitational Force",
+    "category": "Physics",
+    "content": "The gravitational force between two masses is given by F = G (m1 m2) / r^2, where G is the gravitational constant, m1 and m2 are masses, and r is the distance between them."
+  },
+  {
+    "id": "coulombs_law",
+    "title": "Coulomb's Law",
+    "category": "Physics",
+    "content": "Coulomb's Law describes the force between electric charges. The formula is F = k (q1 q2) / r^2, where q1 and q2 are charges, r is distance, and k is Coulomb’s constant."
+  },
+  {
+    "id": "ohms_law",
+    "title": "Ohm's Law",
+    "category": "Physics",
+    "content": "Ohm’s Law describes the relationship between voltage, current, and resistance. The formula is V = I R, where V is voltage, I is current, and R is resistance."
+  },
+  {
+    "id": "electric_power",
+    "title": "Electric Power",
+    "category": "Physics",
+    "content": "Electric power is the rate of electrical energy transfer. The formula is P = V I. It can also be written as P = I^2 R or P = V^2 / R."
+  },
+  {
+    "id": "frequency",
+    "title": "Frequency",
+    "category": "Physics",
+    "content": "Frequency is the number of cycles per second. The formula is f = 1 / T, where T is the period. Frequency is measured in hertz (Hz)."
+  },
+  {
+    "id": "wave_speed",
+    "title": "Wave Speed",
+    "category": "Physics",
+    "content": "Wave speed describes how fast a wave travels. The formula is v = f λ, where f is frequency and λ is wavelength."
+  },
+  {
+    "id": "ideal_gas_law_physics",
+    "title": "Ideal Gas Law",
+    "category": "Physics",
+    "content": "The Ideal Gas Law relates pressure, volume, temperature, and moles of gas. The formula is P V = n R T."
+  },
+  {
+    "id": "torque",
+    "title": "Torque",
+    "category": "Physics",
+    "content": "Torque measures rotational force. The formula is τ = r F sin(θ), where r is distance from pivot and F is force."
+  },
+  {
+    "id": "angular_velocity",
+    "title": "Angular Velocity",
+    "category": "Physics",
+    "content": "Angular velocity describes rotational speed. The formula is ω = θ / t, where θ is angular displacement and t is time."
+  },
+  {
+    "id": "centripetal_force",
+    "title": "Centripetal Force",
+    "category": "Physics",
+    "content": "Centripetal force keeps an object moving in a circular path. The formula is F = m v^2 / r."
+  },
+  {
+    "id": "heat",
+    "title": "Heat",
+    "category": "Physics",
+    "content": "Heat is energy transferred due to temperature difference. The formula for heat transfer is Q = m c ΔT."
+  },
+  {
+    "id": "specific_heat_capacity",
+    "title": "Specific Heat Capacity",
+    "category": "Physics",
+    "content": "Specific heat capacity is the heat required to raise temperature. It appears in the formula Q = m c ΔT."
+  },
+  {
+    "id": "conservation_of_energy",
+    "title": "Conservation of Energy",
+    "category": "Physics",
+    "content": "The Law of Conservation of Energy states that energy cannot be created or destroyed, only transformed. Total energy in an isolated system remains constant."
+  }
+,
+  {
+    "id": "conservation_of_momentum",
+    "title": "Conservation of Momentum",
+    "category": "Physics",
+    "content": "The Law of Conservation of Momentum states that the total momentum of an isolated system remains constant if no external forces act on it. In collisions, the total momentum before impact equals the total momentum after impact."
+  },
+  {
+    "id": "elastic_collision",
+    "title": "Elastic Collision",
+    "category": "Physics",
+    "content": "An elastic collision is a collision in which both momentum and kinetic energy are conserved. Objects bounce off each other without losing total kinetic energy."
+  },
+  {
+    "id": "inelastic_collision",
+    "title": "Inelastic Collision",
+    "category": "Physics",
+    "content": "An inelastic collision is a collision where momentum is conserved but kinetic energy is not. Some energy is transformed into heat, sound, or deformation."
+  },
+  {
+    "id": "projectile_motion",
+    "title": "Projectile Motion",
+    "category": "Physics",
+    "content": "Projectile motion describes the motion of an object launched into the air under gravity alone. Horizontal motion has constant velocity, while vertical motion has constant acceleration due to gravity."
+  },
+  {
+    "id": "hookes_law",
+    "title": "Hooke's Law",
+    "category": "Physics",
+    "content": "Hooke’s Law states that the force exerted by a spring is proportional to its displacement. The formula is F = -k x, where k is the spring constant and x is displacement."
+  },
+  {
+    "id": "simple_harmonic_motion",
+    "title": "Simple Harmonic Motion",
+    "category": "Physics",
+    "content": "Simple harmonic motion is oscillatory motion where the restoring force is proportional to displacement. For a spring system, angular frequency is ω = √(k/m)."
+  },
+  {
+    "id": "period_of_pendulum",
+    "title": "Period of a Simple Pendulum",
+    "category": "Physics",
+    "content": "The time period of a simple pendulum is T = 2π √(L/g), where L is length and g is gravitational acceleration. The period depends only on length and gravity."
+  },
+  {
+    "id": "mechanical_advantage",
+    "title": "Mechanical Advantage",
+    "category": "Physics",
+    "content": "Mechanical advantage measures how much a machine multiplies force. The formula is MA = output force / input force."
+  },
+  {
+    "id": "efficiency",
+    "title": "Efficiency",
+    "category": "Physics",
+    "content": "Efficiency measures how effectively energy is converted. The formula is Efficiency = (useful output / total input) × 100%."
+  },
+  {
+    "id": "electric_current",
+    "title": "Electric Current",
+    "category": "Physics",
+    "content": "Electric current is the rate of flow of electric charge. The formula is I = Q / t, where Q is charge and t is time."
+  },
+  {
+    "id": "electric_field",
+    "title": "Electric Field",
+    "category": "Physics",
+    "content": "Electric field strength is force per unit charge. The formula is E = F / q."
+  },
+  {
+    "id": "electric_potential",
+    "title": "Electric Potential",
+    "category": "Physics",
+    "content": "Electric potential is work done per unit charge. The formula is V = W / q."
+  },
+  {
+    "id": "magnetic_force",
+    "title": "Magnetic Force",
+    "category": "Physics",
+    "content": "The magnetic force on a moving charge is F = q v B sin(θ), where q is charge, v is velocity, and B is magnetic field strength."
+  },
+  {
+    "id": "faradays_law",
+    "title": "Faraday's Law",
+    "category": "Physics",
+    "content": "Faraday’s Law of electromagnetic induction states that induced voltage equals the rate of change of magnetic flux. The formula is ε = - dΦ/dt."
+  },
+  {
+    "id": "snells_law",
+    "title": "Snell's Law",
+    "category": "Physics",
+    "content": "Snell’s Law describes refraction of light. The formula is n1 sin(θ1) = n2 sin(θ2), where n represents refractive index."
+  },
+  {
+    "id": "speed_of_light",
+    "title": "Speed of Light",
+    "category": "Physics",
+    "content": "The speed of light in vacuum is approximately c = 3 × 10^8 m/s. It is the maximum speed at which information can travel."
+  },
+  {
+    "id": "mass_energy_equivalence",
+    "title": "Mass-Energy Equivalence",
+    "category": "Physics",
+    "content": "Einstein’s mass-energy equivalence formula is E = m c^2. It states that mass can be converted into energy."
+  },
+  {
+    "id": "entropy",
+    "title": "Entropy",
+    "category": "Physics",
+    "content": "Entropy measures disorder in a system. The Second Law of Thermodynamics states that entropy of an isolated system tends to increase."
+  },
+  {
+    "id": "first_law_thermodynamics",
+    "title": "First Law of Thermodynamics",
+    "category": "Physics",
+    "content": "The First Law of Thermodynamics states that energy is conserved. The formula is ΔU = Q - W, where Q is heat added and W is work done."
+  },
+  {
+    "id": "second_law_thermodynamics",
+    "title": "Second Law of Thermodynamics",
+    "category": "Physics",
+    "content": "The Second Law states that entropy of an isolated system increases over time. Energy transformations are not 100% efficient."
+  },
+  {
+    "id": "third_law_thermodynamics",
+    "title": "Third Law of Thermodynamics",
+    "category": "Physics",
+    "content": "The Third Law states that as temperature approaches absolute zero, the entropy of a perfect crystal approaches zero."
+  },
+  {
+    "id": "relativistic_time_dilation",
+    "title": "Time Dilation",
+    "category": "Physics",
+    "content": "Time dilation states that time passes slower for objects moving at high speeds. The formula is t' = t / √(1 - v^2/c^2)."
+  },
+  {
+    "id": "relativistic_length_contraction",
+    "title": "Length Contraction",
+    "category": "Physics",
+    "content": "Length contraction states that objects moving at high speeds appear shorter along the direction of motion. The formula is L = L0 √(1 - v^2/c^2)."
+  },
+  {
+    "id": "doppler_effect",
+    "title": "Doppler Effect",
+    "category": "Physics",
+    "content": "The Doppler Effect describes the change in frequency of a wave due to motion between source and observer."
+  },
+  {
+    "id": "photoelectric_effect",
+    "title": "Photoelectric Effect",
+    "category": "Physics",
+    "content": "The photoelectric effect occurs when light ejects electrons from a metal surface. The energy relation is E = h f."
+  }
+]

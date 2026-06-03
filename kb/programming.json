@@ -1,0 +1,364 @@
+[
+  {
+    "id": "variable",
+    "title": "Variable",
+    "category": "Programming",
+    "content": "A variable is a named storage location used to hold data in a program. Its value can change during execution. Variables have data types such as integer, float, string, or boolean, which define what kind of data they can store."
+  },
+  {
+    "id": "data_type",
+    "title": "Data Type",
+    "category": "Programming",
+    "content": "A data type defines the kind of value a variable can hold and the operations that can be performed on it. Common data types include integers, floating-point numbers, strings, booleans, arrays, and objects."
+  },
+  {
+    "id": "function",
+    "title": "Function",
+    "category": "Programming",
+    "content": "A function is a reusable block of code that performs a specific task. Functions improve modularity, readability, and reusability. They can take inputs called parameters and return outputs."
+  },
+  {
+    "id": "recursion",
+    "title": "Recursion",
+    "category": "Programming",
+    "content": "Recursion is a programming technique where a function calls itself to solve smaller instances of the same problem. A recursive function must include a base case to prevent infinite recursion."
+  },
+  {
+    "id": "loop",
+    "title": "Loop",
+    "category": "Programming",
+    "content": "A loop is a control structure that repeats a block of code while a condition is true. Common types include for loops and while loops."
+  },
+  {
+    "id": "conditional_statement",
+    "title": "Conditional Statement",
+    "category": "Programming",
+    "content": "A conditional statement allows a program to execute different code blocks based on logical conditions. Examples include if, else, and switch statements."
+  },
+  {
+    "id": "array",
+    "title": "Array",
+    "category": "Programming",
+    "content": "An array is a data structure that stores multiple values in a single variable. Elements are accessed using an index."
+  },
+  {
+    "id": "linked_list",
+    "title": "Linked List",
+    "category": "Programming",
+    "content": "A linked list is a linear data structure where elements are stored in nodes. Each node contains data and a reference to the next node."
+  },
+  {
+    "id": "stack",
+    "title": "Stack",
+    "category": "Programming",
+    "content": "A stack is a data structure that follows the Last In, First Out (LIFO) principle. Common operations include push and pop."
+  },
+  {
+    "id": "queue",
+    "title": "Queue",
+    "category": "Programming",
+    "content": "A queue is a data structure that follows the First In, First Out (FIFO) principle. Elements are added at the rear and removed from the front."
+  },
+  {
+    "id": "tree",
+    "title": "Tree",
+    "category": "Programming",
+    "content": "A tree is a hierarchical data structure consisting of nodes connected by edges. It has a root node and child nodes."
+  },
+  {
+    "id": "graph",
+    "title": "Graph",
+    "category": "Programming",
+    "content": "A graph is a data structure made of vertices and edges. It is used to represent networks such as social connections or computer networks."
+  },
+  {
+    "id": "algorithm",
+    "title": "Algorithm",
+    "category": "Programming",
+    "content": "An algorithm is a step-by-step procedure for solving a problem or performing a computation. Efficiency is measured using time and space complexity."
+  },
+  {
+    "id": "time_complexity",
+    "title": "Time Complexity",
+    "category": "Programming",
+    "content": "Time complexity measures how the execution time of an algorithm grows with input size. It is commonly expressed using Big O notation."
+  },
+  {
+    "id": "space_complexity",
+    "title": "Space Complexity",
+    "category": "Programming",
+    "content": "Space complexity measures how much memory an algorithm requires relative to input size."
+  },
+  {
+    "id": "big_o_notation",
+    "title": "Big O Notation",
+    "category": "Programming",
+    "content": "Big O notation describes the upper bound of an algorithm’s growth rate. Common complexities include O(1), O(n), O(log n), and O(n^2)."
+  },
+  {
+    "id": "object_oriented_programming",
+    "title": "Object-Oriented Programming",
+    "category": "Programming",
+    "content": "Object-Oriented Programming (OOP) is a paradigm based on objects that contain data and methods. Key principles include encapsulation, inheritance, abstraction, and polymorphism."
+  },
+  {
+    "id": "class",
+    "title": "Class",
+    "category": "Programming",
+    "content": "A class is a blueprint for creating objects. It defines properties and methods that the objects will have."
+  },
+  {
+    "id": "inheritance",
+    "title": "Inheritance",
+    "category": "Programming",
+    "content": "Inheritance allows a class to acquire properties and methods from another class, promoting code reuse."
+  },
+  {
+    "id": "polymorphism",
+    "title": "Polymorphism",
+    "category": "Programming",
+    "content": "Polymorphism allows methods to behave differently depending on the object calling them, enabling flexibility in OOP."
+  }
+,
+  {
+    "id": "abstraction",
+    "title": "Abstraction",
+    "category": "Programming",
+    "content": "Abstraction is the process of hiding complex implementation details and exposing only the necessary features of an object or system."
+  },
+  {
+    "id": "encapsulation",
+    "title": "Encapsulation",
+    "category": "Programming",
+    "content": "Encapsulation is the bundling of data and methods within a class while restricting direct access to internal details."
+  },
+  {
+    "id": "interface",
+    "title": "Interface",
+    "category": "Programming",
+    "content": "An interface defines a contract of methods that a class must implement, without specifying how those methods are implemented."
+  },
+  {
+    "id": "constructor",
+    "title": "Constructor",
+    "category": "Programming",
+    "content": "A constructor is a special method used to initialize objects when they are created."
+  },
+  {
+    "id": "destructor",
+    "title": "Destructor",
+    "category": "Programming",
+    "content": "A destructor is a method that is automatically called when an object is destroyed to release resources."
+  },
+  {
+    "id": "exception_handling",
+    "title": "Exception Handling",
+    "category": "Programming",
+    "content": "Exception handling allows a program to detect and respond to runtime errors using constructs such as try, catch, and finally."
+  },
+  {
+    "id": "debugging",
+    "title": "Debugging",
+    "category": "Programming",
+    "content": "Debugging is the process of identifying, analyzing, and fixing errors or bugs in software."
+  },
+  {
+    "id": "compilation",
+    "title": "Compilation",
+    "category": "Programming",
+    "content": "Compilation is the process of converting source code into machine code before execution."
+  },
+  {
+    "id": "interpretation",
+    "title": "Interpretation",
+    "category": "Programming",
+    "content": "Interpretation executes source code line by line without converting it into machine code beforehand."
+  },
+  {
+    "id": "garbage_collection",
+    "title": "Garbage Collection",
+    "category": "Programming",
+    "content": "Garbage collection is automatic memory management that reclaims memory occupied by unused objects."
+  },
+  {
+    "id": "thread",
+    "title": "Thread",
+    "category": "Programming",
+    "content": "A thread is the smallest unit of execution within a process. Multithreading allows concurrent task execution."
+  },
+  {
+    "id": "process",
+    "title": "Process",
+    "category": "Programming",
+    "content": "A process is an instance of a program in execution with its own memory space."
+  },
+  {
+    "id": "concurrency",
+    "title": "Concurrency",
+    "category": "Programming",
+    "content": "Concurrency refers to the ability of a system to execute multiple tasks overlapping in time."
+  },
+  {
+    "id": "asynchronous_programming",
+    "title": "Asynchronous Programming",
+    "category": "Programming",
+    "content": "Asynchronous programming allows tasks to run independently without blocking program execution."
+  },
+  {
+    "id": "api",
+    "title": "API",
+    "category": "Programming",
+    "content": "An API (Application Programming Interface) defines rules and protocols for building and interacting with software applications."
+  },
+  {
+    "id": "rest",
+    "title": "REST",
+    "category": "Programming",
+    "content": "REST (Representational State Transfer) is an architectural style for designing networked applications using HTTP methods."
+  },
+  {
+    "id": "json",
+    "title": "JSON",
+    "category": "Programming",
+    "content": "JSON (JavaScript Object Notation) is a lightweight data format used for storing and transmitting structured data."
+  },
+  {
+    "id": "database",
+    "title": "Database",
+    "category": "Programming",
+    "content": "A database is an organized collection of data stored electronically for efficient retrieval and management."
+  },
+  {
+    "id": "sql",
+    "title": "SQL",
+    "category": "Programming",
+    "content": "SQL (Structured Query Language) is used to manage and query relational databases."
+  },
+  {
+    "id": "hash_table",
+    "title": "Hash Table",
+    "category": "Programming",
+    "content": "A hash table is a data structure that stores key-value pairs and uses a hash function to compute index positions."
+  }
+,
+  {
+    "id": "binary_search",
+    "title": "Binary Search",
+    "category": "Programming",
+    "content": "Binary search is an efficient algorithm for finding an element in a sorted array. It repeatedly divides the search interval in half. Its time complexity is O(log n)."
+  },
+  {
+    "id": "linear_search",
+    "title": "Linear Search",
+    "category": "Programming",
+    "content": "Linear search checks each element in a list sequentially until the target is found. Its time complexity is O(n)."
+  },
+  {
+    "id": "bubble_sort",
+    "title": "Bubble Sort",
+    "category": "Programming",
+    "content": "Bubble sort is a simple sorting algorithm that repeatedly swaps adjacent elements if they are in the wrong order. Its average time complexity is O(n^2)."
+  },
+  {
+    "id": "merge_sort",
+    "title": "Merge Sort",
+    "category": "Programming",
+    "content": "Merge sort is a divide-and-conquer sorting algorithm that splits the array, sorts each half recursively, and merges them. Its time complexity is O(n log n)."
+  },
+  {
+    "id": "quick_sort",
+    "title": "Quick Sort",
+    "category": "Programming",
+    "content": "Quick sort is a divide-and-conquer algorithm that selects a pivot and partitions elements around it. Its average time complexity is O(n log n)."
+  },
+  {
+    "id": "depth_first_search",
+    "title": "Depth-First Search (DFS)",
+    "category": "Programming",
+    "content": "Depth-First Search is a graph traversal algorithm that explores as far as possible along each branch before backtracking."
+  },
+  {
+    "id": "breadth_first_search",
+    "title": "Breadth-First Search (BFS)",
+    "category": "Programming",
+    "content": "Breadth-First Search is a graph traversal algorithm that explores all neighbors at the current depth before moving deeper."
+  },
+  {
+    "id": "dynamic_programming",
+    "title": "Dynamic Programming",
+    "category": "Programming",
+    "content": "Dynamic programming is an optimization technique that solves complex problems by breaking them into overlapping subproblems and storing results."
+  },
+  {
+    "id": "greedy_algorithm",
+    "title": "Greedy Algorithm",
+    "category": "Programming",
+    "content": "A greedy algorithm makes the locally optimal choice at each step with the hope of finding a global optimum."
+  },
+  {
+    "id": "recursion_vs_iteration",
+    "title": "Recursion vs Iteration",
+    "category": "Programming",
+    "content": "Recursion uses function calls to repeat tasks, while iteration uses loops. Recursion can be cleaner for certain problems but may consume more memory."
+  },
+  {
+    "id": "design_pattern",
+    "title": "Design Pattern",
+    "category": "Programming",
+    "content": "A design pattern is a reusable solution to a common software design problem. Examples include Singleton, Factory, and Observer."
+  },
+  {
+    "id": "singleton_pattern",
+    "title": "Singleton Pattern",
+    "category": "Programming",
+    "content": "The Singleton pattern ensures that a class has only one instance and provides a global point of access to it."
+  },
+  {
+    "id": "mvc_architecture",
+    "title": "MVC Architecture",
+    "category": "Programming",
+    "content": "Model-View-Controller (MVC) separates application logic into three components: Model (data), View (UI), and Controller (logic)."
+  },
+  {
+    "id": "microservices",
+    "title": "Microservices",
+    "category": "Programming",
+    "content": "Microservices architecture structures applications as loosely coupled services that can be independently deployed and scaled."
+  },
+  {
+    "id": "cloud_computing",
+    "title": "Cloud Computing",
+    "category": "Programming",
+    "content": "Cloud computing provides on-demand access to computing resources such as servers and storage over the internet."
+  },
+  {
+    "id": "cybersecurity",
+    "title": "Cybersecurity",
+    "category": "Programming",
+    "content": "Cybersecurity involves protecting systems, networks, and data from digital attacks."
+  },
+  {
+    "id": "encryption",
+    "title": "Encryption",
+    "category": "Programming",
+    "content": "Encryption converts readable data into coded form to prevent unauthorized access."
+  },
+  {
+    "id": "authentication",
+    "title": "Authentication",
+    "category": "Programming",
+    "content": "Authentication verifies the identity of a user or system before granting access."
+  },
+  {
+    "id": "authorization",
+    "title": "Authorization",
+    "category": "Programming",
+    "content": "Authorization determines what actions an authenticated user is allowed to perform."
+  },
+  {
+    "id": "software_testing",
+    "title": "Software Testing",
+    "category": "Programming",
+    "content": "Software testing evaluates software to detect defects and ensure it meets requirements. Types include unit testing and integration testing."
+  }
+]
